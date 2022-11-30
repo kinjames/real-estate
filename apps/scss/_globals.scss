@@ -1,0 +1,39 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Flexbox styles
+.flex {
+    display: flex;
+    &-jc-sb {
+        justify-content: space-between;
+    }
+    &-jc-c {
+        justify-content: center;
+    }
+    &-ai-c {
+        align-items: center;
+    }
+}
+
+
+.hide-for-mobile {
+    //Hide for mobile and tablets
+    @include breakpoint-down(medium){
+        display: none;
+    }
+}
+
+.hide-for-desktop {
+    //Hide for desktop vw
+
+    @include breakpoint-up(large){
+        display: none;
+    }
+}
