@@ -31,4 +31,25 @@ a {
   .hide-for-desktop {
     display: none;
   }
+}
+
+header {
+  width: 100%;
+  height: 75vh;
+  background: url(../../images/facade-solutions-for-building-near-the-sea_5.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(19, 37, 74);
+}
+@media (min-width: 64em) {
+  header {
+    padding: 3.125rem 6.25rem;
+  }
+}
+header .nav {
+  border: 2px solid red;
+}
+header .nav__logo {
+  border: 2px solid green;
 }/*# sourceMappingURL=style.css.map */

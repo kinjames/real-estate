@@ -1,0 +1,25 @@
+header{
+    width: 100%;
+    height: 75vh;
+    background: url(../../images/facade-solutions-for-building-near-the-sea_5.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: $deep-blue;
+
+    @include breakpoint-up(large){
+        padding: 3.125rem 6.25rem;
+    }
+
+    .nav {
+        border: 2px solid red;
+
+        &__logo {
+            border: 2px solid green;
+        }
+
+        &__items{
+
+        }
+    }
+}
