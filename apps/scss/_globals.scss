@@ -29,7 +29,7 @@ body{
 
 .hide-for-mobile {
     //Hide for mobile and tablets
-    @include breakpoint-down(medium){
+    @include breakpoint-down(small){
         display: none;
     }
 }

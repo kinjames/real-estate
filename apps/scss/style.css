@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
   padding: 0rem;
@@ -26,7 +26,7 @@ body {
   align-items: center;
 }
 
-@media (max-width: 63.9375em) {
+@media (max-width: 39.9375em) {
   .hide-for-mobile {
     display: none;
   }
@@ -61,6 +61,7 @@ header {
 }
 header .nav {
   height: auto;
+  margin-bottom: 5rem;
 }
 header .nav__logo img {
   max-width: 100%;
@@ -90,4 +91,25 @@ header .nav__items .nav__links:last-child {
 }
 header .nav__items .nav__links:hover {
   font-weight: 500;
+}
+header .header__text {
+  height: auto;
+}
+header .header__headings {
+  text-transform: uppercase;
+  width: 40%;
+  padding: 10px;
+}
+header .header__sub-heading {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+header .header__heading {
+  font-size: 1.8rem;
+}
+header .header__paragraph {
+  width: 30%;
+  line-height: 1.25rem;
+  font-weight: 300;
+  margin-right: 1.25rem;
 }/*# sourceMappingURL=style.css.map */

@@ -19,6 +19,7 @@ header{
 
     .nav {
         height: auto;
+        margin-bottom: 5rem;
 
         &__logo {
             img{
@@ -51,6 +52,31 @@ header{
                     font-weight: 500;
                 }
             }
+        }
+    }
+
+    .header {
+        &__text {
+            height: auto;
+        }
+
+        &__headings {
+            text-transform: uppercase;
+            width: 40%;
+            padding: 10px;
+        }
+        &__sub-heading{
+            font-size: 2.0rem;
+            margin-bottom: 0.5rem;
+        }
+        &__heading {
+            font-size: 1.8rem;
+        }
+        &__paragraph {
+            width: 30%;
+            line-height: 1.25rem;
+            font-weight: 300;
+            margin-right: 1.25rem;
         }
     }
 }
