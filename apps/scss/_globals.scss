@@ -80,7 +80,8 @@ body{
     right: 0;
     bottom: 0;
     left: 0;
-    background: linear-gradient($deep-blue, transparent); 
+    background: linear-gradient($deep-blue, transparent);
+    z-index: 50; 
 }
 
 .noscroll{
