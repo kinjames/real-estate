@@ -1,4 +1,5 @@
 .about{
+    gap: 4rem;
     &__images{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -22,6 +23,10 @@
     }
     &__img-3{
         grid-area: 2 / 2 / 3 / 3; 
+    }
+
+    &__texts{
+        width: 30%;
     }
 
 }

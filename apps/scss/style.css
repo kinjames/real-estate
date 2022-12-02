@@ -12,6 +12,7 @@ a {
 body {
   font-family: "Roboto", sans-serif;
   background-color: rgb(242, 245, 250);
+  color: rgb(19, 37, 74);
 }
 
 .flex {
@@ -255,6 +256,9 @@ header .header_mobile_menu a {
   font-size: 0.875rem;
 }
 
+.about {
+  gap: 4rem;
+}
 .about__images {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -276,4 +280,8 @@ header .header_mobile_menu a {
 }
 .about__img-3 {
   grid-area: 2/2/3/3;
+}
+.about__texts {
+  width: 30%;
+  color: rgb(19, 37, 74);
 }/*# sourceMappingURL=style.css.map */
