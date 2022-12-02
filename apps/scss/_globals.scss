@@ -93,3 +93,11 @@ body{
 .hide {
     display: none;
 }
+
+.mb{
+    margin-bottom: 2.8rem;
+
+    @include breakpoint-down(medium){
+        margin-bottom: 2rem;
+    }
+}
