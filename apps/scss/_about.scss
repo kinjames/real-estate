@@ -7,6 +7,10 @@
         height: 30vh;
         gap: 3rem;
     }
+    @include breakpoint-down(small){
+        flex-direction: column-reverse;
+        height: 100%;
+    }
     &__images{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -27,6 +31,10 @@
             width: 40%;
             height: 100%;
         }
+
+        @include breakpoint-down(small){
+            width: 100%;
+        }
     }
 
     &__img-1{
@@ -46,14 +54,14 @@
         @include breakpoint-down(medium){
             width: 40%;
         }
+
+        @include breakpoint-down(small){
+            width: 100%;
+            text-align: center;
+            padding: 1.25rem;
+        }
     }
 
-    &__heading{
-        font-size: 0.7rem;
-        letter-spacing: 2px;
-        font-weight: 500;
-        margin-bottom: 1.5rem;
-    }
 
     &__subheading{
         line-height: 2rem;
@@ -63,11 +71,18 @@
             font-size: 1.25rem;
             line-height: 1.5rem;
         }
+        @include breakpoint-down(small){
+            font-size: 1rem;
+        }
     }
 
     &__paragraph {
         font-size: 0.875rem;
         font-weight: 300;
+
+        @include breakpoint-down(small){
+            font-size: 0.75rem;
+        }
     }
 
     &__link {
@@ -78,6 +93,10 @@
 
         i {
             color: $deep-blue;
+        }
+
+        @include breakpoint-down(small){
+            font-size: 0.8rem;
         }
 
     }

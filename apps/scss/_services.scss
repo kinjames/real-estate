@@ -1,0 +1,88 @@
+.service{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+
+    @include breakpoint-down(small){
+        width: 100%;
+    }
+
+    &__subheading{
+        line-height: 2rem;
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+
+        @include breakpoint-down(small){
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    }
+
+    &__icons {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        width: 800px;
+
+        @include breakpoint-down(small){
+            width: 100%;
+            grid-column-gap: 0.5rem;
+            grid-row-gap: 0.5rem;
+            padding: 0.5rem;
+        }
+    }
+
+    &__icon{
+        color: $brown;
+        cursor: pointer;
+        padding: 1.5rem;
+        background-color: #fff;
+        transition: all 0.3s ease-in-out;
+
+        @include breakpoint-down(small){
+            padding: 0.5rem;
+        }
+
+        &:hover{
+            color: $deep-blue;
+        }
+
+        i {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+
+            @include breakpoint-down(small){
+                font-size: 1rem;
+            }
+        }
+
+        span{
+            font-size: 0.875rem;
+            color: $deep-blue;
+
+            @include breakpoint-down(small){
+                font-size: 0.5rem;
+            }
+        }
+    }
+    &__icon-1{
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    &__icon-2{
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    &__icon-3{
+        grid-area: 1 / 3 / 2 / 4;
+    }
+    &__icon-4{
+        grid-area: 1 / 4 / 2 / 5;
+    }
+    &__icon-5{
+        grid-area: 2 / 2 / 3 / 3; 
+    }
+    &__icon-6{
+        grid-area: 2 / 3 / 3 / 4;
+    }
+}

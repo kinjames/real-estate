@@ -26,6 +26,9 @@ body{
     &-ai-c {
         align-items: center;
     }
+    &-col{
+        flex-direction: column;
+    }
 }
 
 
@@ -99,5 +102,17 @@ body{
 
     @include breakpoint-down(medium){
         margin-bottom: 2rem;
+    }
+}
+
+
+.headers{
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+
+    @include breakpoint-down(small){
+        font-size: 0.6rem;
     }
 }
