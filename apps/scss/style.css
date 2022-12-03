@@ -105,6 +105,11 @@ body {
   }
 }
 
+.btn {
+  padding: 0.5rem;
+  outline: none;
+}
+
 header {
   width: 100%;
   height: 80vh;
@@ -549,4 +554,55 @@ header .header_mobile_menu a {
     width: 100%;
     font-size: 0.7rem;
   }
+}
+
+.swiper {
+  margin-bottom: 6rem;
+}
+.swiper__heading {
+  line-height: 2rem;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.swiper-slide {
+  background-color: #fff;
+  width: 240px;
+  border: 6px solid #fff;
+}
+.swiper__image {
+  width: 100%;
+  height: 140px;
+  margin-bottom: 0.5rem;
+}
+.swiper__image img {
+  width: 100%;
+  height: 100%;
+}
+.swiper__header {
+  font-weight: 700;
+  font-size: 0.875rem;
+  margin-bottom: 0.3rem;
+}
+.swiper__text {
+  font-size: 0.7rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+.swiper__icons {
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.swiper__icon {
+  gap: 0.3rem;
+}
+.swiper__icon i {
+  font-size: 0.875rem;
+}
+.swiper__icon span {
+  font-size: 0.7rem;
+}
+.swiper__btns {
+  font-size: 0.5rem;
+  gap: 0.3rem;
 }/*# sourceMappingURL=style.css.map */

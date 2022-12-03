@@ -1,0 +1,58 @@
+.swiper{
+    margin-bottom: 6rem;
+
+    &__heading{
+        line-height: 2rem;
+        font-size: 1.4rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    &-slide{
+        background-color: #fff;
+        width: 240px;
+        border: 6px solid #fff;
+    }
+
+    &__image{
+        width: 100%;
+        height: 140px;
+        margin-bottom: 0.5rem;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__header{
+        font-weight: 700;
+        font-size: 0.875rem;
+        margin-bottom: 0.3rem;
+    }
+
+    &__text{
+        font-size: 0.7rem;
+        font-weight: 300;
+        margin-bottom: 0.5rem;
+    }
+
+    &__icons{
+        gap: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &__icon{
+        gap: 0.3rem;
+        i{
+            font-size: 0.875rem;
+        }
+        span{
+            font-size: 0.7rem;
+        }   
+    }
+    &__btns{
+        font-size: 0.5rem;
+        gap: 0.3rem;
+    }
+}
