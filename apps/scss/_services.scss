@@ -1,7 +1,7 @@
 .service{
     width: 100%;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 6rem auto;
 
     @include breakpoint-down(small){
         width: 100%;
@@ -25,6 +25,10 @@
         grid-column-gap: 10px;
         grid-row-gap: 10px;
         width: 800px;
+
+        @include breakpoint-down(medium){
+            width: 100%;
+        }
 
         @include breakpoint-down(small){
             width: 100%;

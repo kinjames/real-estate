@@ -1,0 +1,62 @@
+.appraisal{
+    width: 100%;
+    height: 40vh;
+    background-image:linear-gradient(rgba(19,37,74,.8),rgb(19,37,74,.8)), url(../../images/center.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 170%;
+    margin-bottom: 6rem;
+
+    @include breakpoint-down(medium){
+        height: 30vh;
+        width: 100%;
+        padding: 1.5rem;
+    }
+
+    @include breakpoint-down(small){
+        height: 100%;
+        padding: 2rem;
+    }
+
+    &__texts{
+        width: 800px;
+        color: #fff;
+        border: 2px solid $brown;
+        padding: 2rem;
+
+        @include breakpoint-down(medium){
+            width: 100%;
+        }
+        @include breakpoint-down(small){
+            flex-direction: column;
+            text-align: center;
+            padding: 1rem;
+        }
+    }
+
+    &__heading{
+        font-size: 1.8rem;
+        font-weight: 500;
+        width: 50%;
+
+        @include breakpoint-down(medium){
+            font-size: 1.5rem;
+        }
+        @include breakpoint-down(small){
+            width: 100%;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+    }
+
+    &__text{
+        width: 30%;
+        font-size: 0.875rem;
+
+        @include breakpoint-down(small){
+            width: 100%;
+            font-size: 0.7rem;
+        }
+    }
+}
