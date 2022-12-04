@@ -594,6 +594,7 @@ header .header_mobile_menu a {
   -ms-user-select: none; /* IE 10 and IE 11 */
   -moz-user-select: none;
        user-select: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 39.9375em) {
   .swiper-slide {
@@ -702,6 +703,7 @@ header .header_mobile_menu a {
   height: 100%;
   border: 6px solid #fff;
   padding-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .blog__card-image {
   width: 100%;
