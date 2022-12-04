@@ -1,8 +1,9 @@
 .blog{
-
+    margin-bottom: 4rem;
     &__header{
         line-height: 2rem;
         font-size: 1.4rem;
+        margin-bottom: 2rem;
         text-align: center;
 
         @include breakpoint-down(medium){
@@ -11,6 +12,72 @@
         }
         @include breakpoint-down(small){
             font-size: 1rem;
+        }
+    }
+
+    &__cards{
+        width: 100%;
+        gap: 1.5rem;
+
+        @include breakpoint-down(medium){
+            padding-inline: 10px;
+        }
+
+        @include breakpoint-down(small){
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__card{
+        background-color: #fff;
+        width: 250px;
+        height: 100%;
+        border: 6px solid #fff;
+        padding-bottom: 1rem;
+    }
+
+    &__card-image{
+        width: 100%;
+        margin-bottom: 1rem;
+
+        img{
+            width: 100%;
+            height: 140px;
+        }
+    }
+
+    &__texts{
+        padding-left: 0.5rem;
+    }
+
+    &__subheader{
+        font-weight: 700;
+        font-size: 0.875rem;
+        margin-bottom: 0.7rem;
+    }
+
+    &__text{
+        font-size: 0.7rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+
+    &__link{
+        justify-content: flex-end;
+        font-size: 0.8rem;
+        color: $deep-blue;
+
+        i{
+            display: inline-block;
+            text-align: center;
+            width: 15px;
+            height: 15px;
+            font-size: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;background-color: $deep-blue;
+            color: #fff;
+            border-radius: 50%;
         }
     }
 }
