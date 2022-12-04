@@ -1,6 +1,7 @@
 .swiper{
     margin-bottom: 6rem;
 
+
     &__heading{
         line-height: 2rem;
         font-size: 1.4rem;
@@ -14,6 +15,10 @@
         border: 6px solid #fff;
         height: 100%;
         margin-bottom: 2rem;
+
+        @include breakpoint-down(small){
+            width: 300px;
+        }
     }
 
     &__image{
