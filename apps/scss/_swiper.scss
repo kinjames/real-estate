@@ -15,9 +15,12 @@
         border: 6px solid #fff;
         height: 100%;
         margin-bottom: 2rem;
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none;
 
         @include breakpoint-down(small){
-            width: 300px;
+            width: 200px;
         }
     }
 

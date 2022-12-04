@@ -574,10 +574,14 @@ header .header_mobile_menu a {
   border: 6px solid #fff;
   height: 100%;
   margin-bottom: 2rem;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  -moz-user-select: none;
+       user-select: none;
 }
 @media (max-width: 39.9375em) {
   .swiper-slide {
-    width: 300px;
+    width: 200px;
   }
 }
 .swiper__image {
