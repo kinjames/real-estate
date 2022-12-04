@@ -1,7 +1,7 @@
 .about{
     gap: 4rem;
     height: 55vh;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 
     @include breakpoint-down(medium){
         height: 30vh;

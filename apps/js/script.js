@@ -30,6 +30,7 @@ var swiper = new Swiper(".swiper", {
       640: {
         slidesPerView: 1,
         spaceBetween: 50,
+        centeredSlides: true,
       },
       768: {
         slidesPerView: 3,

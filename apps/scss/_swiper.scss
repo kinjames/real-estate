@@ -1,12 +1,23 @@
 .swiper{
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
 
+    @include breakpoint-down(small){
+        width: 270px;
+    }
 
     &__heading{
         line-height: 2rem;
         font-size: 1.4rem;
         margin-bottom: 2rem;
         text-align: center;
+
+        @include breakpoint-down(medium){
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+        }
+        @include breakpoint-down(small){
+            font-size: 1rem;
+        }
     }
 
     &-slide{
@@ -14,7 +25,7 @@
         width: 230px;
         border: 6px solid #fff;
         height: 100%;
-        margin-bottom: 2rem;
+        margin-bottom: 2.3rem;
         -webkit-user-select: none; /* Safari */
         -ms-user-select: none; /* IE 10 and IE 11 */
         user-select: none;

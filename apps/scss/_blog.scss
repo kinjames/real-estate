@@ -1,0 +1,16 @@
+.blog{
+
+    &__header{
+        line-height: 2rem;
+        font-size: 1.4rem;
+        text-align: center;
+
+        @include breakpoint-down(medium){
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+        }
+        @include breakpoint-down(small){
+            font-size: 1rem;
+        }
+    }
+}
