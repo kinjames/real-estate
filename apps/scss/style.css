@@ -875,4 +875,8 @@ header .header_mobile_menu a {
     height: 65vh;
     padding: 1.5rem 1.25rem;
   }
+}
+.footer__container {
+  width: 1140px;
+  border: 2px solid red;
 }/*# sourceMappingURL=style.css.map */
