@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favico/favicon-16x16.png">
+    <link rel="manifest" href="./favico/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />    
+    <link rel="stylesheet" href="./apps/scss/style.css">
+    <title>Real Estate</title>
+</head>
+<body>
+    <!-- HEADER START -->
+    <header>
+        <nav class="nav flex flex-jc-sb flex-ai-c">
+            <div class="nav__logo">
+                <a href="home.html"><img src="./images/logo3.png" alt="Logo"></a>
+            </div>
+            <a href="#" id="menuBtn" class="header_menu hide-for-desktop">
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            <div class="nav__items flex hide-for-mobile flex-ai-c">
+                <a href="home.html" class="nav__links">Home</a>
+                <a href="#" class="nav__links">About</a>
+                <a href="blogpost.html" class="nav__links">Blog</a>
+                <a href="property.html" class="nav__links">For Lease</a>
+                <a href="#" class="nav__links">Contact</a>
+            </div>
+        </nav>
+        <div class="header_mobile_menu has-fade hide-for-desktop hide">
+            <a href="home.html" class="nav__links">Home</a>
+            <a href="#" class="nav__links">About</a>
+            <a href="blogpost.html" class="nav__links">Blog</a>
+            <a href="property.html" class="nav__links">For Lease</a>
+            <a href="#" class="nav__links">Contact</a>
+        </div>
+        <section class="header">
+            <div class="header__text flex flex-jc-sb">
+                <div class="header__headings">
+                    <p class="header__sub-heading">property manager</p>
+                    <h1 class="header__heading">north shore</h1>   
+                </div>
+                <p class="header__paragraph">
+                    Exclusive Property Group is a bespoke property agency dealing exclusively in residential property management in Sydney's North Shore
+                </p>
+            </div>
+            <p class="header__icon-text">
+                learn more
+            </p>
+            <p class="header__icon">&#8642;</p>
+        </section>
+
+    </header>
+    <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main>
+        <section class="about flex">
+            <div class="about__images">
+                <img src="./images/3.jpg" alt="image 1" class="about__img-1">
+                <img src="./images/img1.jpg" alt="image 2" class="about__img-2">
+                <img src="./images/1.jpg" alt="image 3" class="about__img-3">
+            </div>
+            <div class="about__texts">
+                <p class="about__heading headers">ABOUT US</p>
+                <p class="about__subheading mb">
+                    WE OFFER A COMPLETE PROPERTY MANAGEMENT SOLUTION
+                </p>
+                <p class="about__paragraph mb">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam velit sed repellendus laudantium ab dolores ut tempore. Deserunt pariatur accusamus ab, ex error, omnis ipsam maxime sunt perspiciatis corporis quidem!
+                </p>
+                <a href="#" class="about__link">READ MORE <i class="fas fa-long-arrow-alt-right"></i></a>
+            </div>
+        </section>
+        <section class="service flex flex-col flex-ai-c">
+            <p class="service__heading headers">WHY EXECUTIVE PROPERTY?</p>
+            <p class="service__subheading">YOUR INVESTMENT PROPERTY <br> IS OUR PRIORITY</p>
+            <div class="service__icons">
+                <div class="service__icon flex flex-col service__icon-1">
+                    <i class="fas fa-user-tie"></i>
+                    <span>Single point of contact in every step</span>
+                </div>
+                <div class="service__icon flex flex-col service__icon-2">
+                    <i class="fas fa-comment-alt"></i>
+                    <span>Worry free negotiations</span>
+                </div>
+                <div class="service__icon flex flex-col service__icon-3">
+                    <i class="fas fa-home"></i>
+                    <span>Regular property inspections</span>
+                </div>
+                <div class="service__icon flex flex-col service__icon-4">
+                    <i class="fas fa-smile"></i>
+                    <span>Good relationships between landlords & tenants</span>
+                </div>
+                <div class="service__icon flex flex-col service__icon-5">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <span>Successful leases with a minimum fuss</span>
+                </div>
+                <div class="service__icon flex flex-col service__icon-6">
+                    <i class="fas fa-house-user"></i>
+                    <span>Personalised property management</span>
+                </div>
+            </div>
+        </section>
+        <section class="appraisal flex flex-jc-c flex-ai-c">
+            <div class="appraisal__texts flex flex-jc-sb flex-ai-c">
+                <h3 class="appraisal__heading">ORGANISE A NO OBLIGATION APPRAISAL</h3>
+                <p class="appraisal__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi nobis aperiam ullam, iste</p>
+            </div>
+        </section>
+        <section class="swiper">
+            <p class="swiper__heading">LATEST PROPERTIES FOR LEASE</p>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper__image">
+                        <img src="./images/img3.jpg" alt="Image of House">
+                    </div>
+                    <div class="swiper__texts">
+                        <p class="swiper__header">NORTH SYDNEY</p>
+                        <p class="swiper__text">35/275-281 Blaxland Road Ryde</p>
+                        <div class="swiper__icons flex">
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bed"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bath"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-car"></i>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper__btns flex">
+                            <button class="swiper__btn btn swiper__btn-1">&dollar;400/week</button>
+                            <button class="swiper__btn btn swiper__btn-2">MORE DETAILS <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper__image">
+                        <img src="./images/img4.jpg" alt="Image of House">
+                    </div>
+                    <div class="swiper__texts">
+                        <p class="swiper__header">NORTH SYDNEY</p>
+                        <p class="swiper__text">35/275-281 Blaxland Road Ryde</p>
+                        <div class="swiper__icons flex">
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bed"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bath"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-car"></i>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper__btns flex">
+                            <button class="swiper__btn btn swiper__btn-1">&dollar;400/week</button>
+                            <button class="swiper__btn btn swiper__btn-2">MORE DETAILS <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper__image">
+                        <img src="./images/img5.jpg" alt="Image of House">
+                    </div>
+                    <div class="swiper__texts">
+                        <p class="swiper__header">NORTH SYDNEY</p>
+                        <p class="swiper__text">35/275-281 Blaxland Road Ryde</p>
+                        <div class="swiper__icons flex">
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bed"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bath"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-car"></i>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper__btns flex">
+                            <button class="swiper__btn btn swiper__btn-1">&dollar;400/week</button>
+                            <button class="swiper__btn btn swiper__btn-2">MORE DETAILS <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper__image">
+                        <img src="./images/img6.jpg" alt="Image of House">
+                    </div>
+                    <div class="swiper__texts">
+                        <p class="swiper__header">NORTH SYDNEY</p>
+                        <p class="swiper__text">35/275-281 Blaxland Road Ryde</p>
+                        <div class="swiper__icons flex">
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bed"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bath"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-car"></i>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper__btns flex">
+                            <button class="swiper__btn btn swiper__btn-1">&dollar;400/week</button>
+                            <button class="swiper__btn btn swiper__btn-2">MORE DETAILS <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper__image">
+                        <img src="./images/img7.jpg" alt="Image of House">
+                    </div>
+                    <div class="swiper__texts">
+                        <p class="swiper__header">NORTH SYDNEY</p>
+                        <p class="swiper__text">35/275-281 Blaxland Road Ryde</p>
+                        <div class="swiper__icons flex">
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bed"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bath"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-car"></i>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper__btns flex">
+                            <button class="swiper__btn btn swiper__btn-1">&dollar;400/week</button>
+                            <button class="swiper__btn btn swiper__btn-2">MORE DETAILS <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper__image">
+                        <img src="./images/img8.jpg" alt="Image of House">
+                    </div>
+                    <div class="swiper__texts">
+                        <p class="swiper__header">NORTH SYDNEY</p>
+                        <p class="swiper__text">35/275-281 Blaxland Road Ryde</p>
+                        <div class="swiper__icons flex">
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bed"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bath"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-car"></i>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper__btns flex">
+                            <button class="swiper__btn btn swiper__btn-1">&dollar;400/week</button>
+                            <button class="swiper__btn btn swiper__btn-2">MORE DETAILS <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper__image">
+                        <img src="./images/img9.jpg" alt="Image of House">
+                    </div>
+                    <div class="swiper__texts">
+                        <p class="swiper__header">NORTH SYDNEY</p>
+                        <p class="swiper__text">35/275-281 Blaxland Road Ryde</p>
+                        <div class="swiper__icons flex">
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bed"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bath"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-car"></i>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper__btns flex">
+                            <button class="swiper__btn btn swiper__btn-1">&dollar;400/week</button>
+                            <button class="swiper__btn btn swiper__btn-2">MORE DETAILS <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper__image">
+                        <img src="./images/img1.jpg" alt="Image of House">
+                    </div>
+                    <div class="swiper__texts">
+                        <p class="swiper__header">NORTH SYDNEY</p>
+                        <p class="swiper__text">35/275-281 Blaxland Road Ryde</p>
+                        <div class="swiper__icons flex">
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bed"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bath"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-car"></i>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper__btns flex">
+                            <button class="swiper__btn btn swiper__btn-1">&dollar;400/week</button>
+                            <button class="swiper__btn btn swiper__btn-2">MORE DETAILS <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper__image">
+                        <img src="./images/img2.jpg" alt="Image of House">
+                    </div>
+                    <div class="swiper__texts">
+                        <p class="swiper__header">NORTH SYDNEY</p>
+                        <p class="swiper__text">35/275-281 Blaxland Road Ryde</p>
+                        <div class="swiper__icons flex">
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bed"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-bath"></i>
+                                <span>2</span>
+                            </div>
+                            <div class="swiper__icon flex flex-ai-c">
+                                <i class="fas fa-car"></i>
+                                <span>1</span>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper__btns flex">
+                            <button class="swiper__btn btn swiper__btn-1">&dollar;400/week</button>
+                            <button class="swiper__btn btn swiper__btn-2">MORE DETAILS <i class="fas fa-long-arrow-alt-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+        </section>
+        <section class="blog">
+            <p class="blog__header">
+                BLOG POST
+            </p>
+            <div class="blog__cards flex flex-jc-c">
+                <div class="blog__card">
+                    <div class="blog__card-image">
+                        <img src="./images/fam1.jpg" alt="Family photo">
+                    </div>
+                    <div class="blog__texts">
+                        <div class="blog__subheader">
+                            WHAT'S LENDERS MORTGAGE INSURANCE?
+                        </div>
+                        <p class="blog__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur corrupti voluptatibus provident.
+                        </p>
+                    </div>
+                    <a href="#" class="blog__link flex">READ MORE &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div class="blog__card">
+                    <div class="blog__card-image">
+                        <img src="./images/fam2.jpg" alt="Family photo">
+                    </div>
+                    <div class="blog__texts">
+                        <div class="blog__subheader">
+                            WHAT'S LENDERS MORTGAGE INSURANCE?
+                        </div>
+                        <p class="blog__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur corrupti voluptatibus provident.
+                        </p>
+                    </div>
+                    <a href="#" class="blog__link flex">READ MORE &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div class="blog__card">
+                    <div class="blog__card-image">
+                        <img src="./images/fam3.jpg" alt="Family photo">
+                    </div>
+                    <div class="blog__texts">
+                        <div class="blog__subheader">
+                            WHAT'S LENDERS MORTGAGE INSURANCE?
+                        </div>
+                        <p class="blog__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur corrupti voluptatibus provident.
+                        </p>
+                    </div>
+                    <a href="#" class="blog__link flex">READ MORE &nbsp; <i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </section>
+        <section class="contact flex flex-jc-c flex-ai-c">
+            <div class="contact__arrow flex flex-ai-c flex-jc-c"><i class="fas fa-arrow-down"></i></div>
+            <p class="contact__header">GET IN TOUCH</p>
+            <p class="contact__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aliquid sed blanditiis corrupti ullam magnam, doloremque mollitia!
+            </p>
+            <form action="" class="contact__form flex flex-jc-c flex-ai-c">
+                <div class="contact__info flex flex-jc-sb">
+                    <input type="text" placeholder="Your Name" class="contact__name">
+                    <input type="number" placeholder="Phone Number" class="contact__number">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message..." class="contact__textarea"></textarea>
+                <button type="submit" class="contact__btn flex flex-jc-c flex-ai-c">SEND MESSAGE &nbsp; <i class="fas fa-long-arrow-alt-right"></i> </button>
+            </form>
+        </section>
+    </main>
+    <!-- MAIN END -->
+    <!-- FOOTER START -->
+    <footer class="footer flex flex-jc-c">
+        <div class="footer__container">
+            <div class="footer__logo__about flex">
+                <div class="footer__logo">
+                    <a href="home.html"><img src="./images/logo3.png" alt="Logo"></a>
+                </div>
+                <p class="footer__about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolor sint sit. Tempora a delectus mollitia,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet</p>
+            </div>
+            <div class="footer__links flex">
+                <p class="footer__links-header">
+                    QUICK MENU
+                </p>
+                <div class="footer__links-link flex">
+                    <a href="home.html" class="">Home</a>
+                    <a href="#" class="">About</a>
+                    <a href="blogpost.html" class="">Blog</a>
+                    <a href="property.html" class="">For Lease</a>
+                    <a href="#" class="">Contact</a>
+                </div>
+            </div>
+            <div class="footer__contact flex">
+                <p class="footer__contact-text">
+                    CONTACT
+                </p>
+                <div class="footer__contact-list">
+                    <p>Exclusive Property Group Pty Ltd</p>
+                    <p>P.O.BOX 330 Freesville 2007</p>
+                    <p>Phone: (03) 9183 7456</p>
+                    <p>Fax: (03) 9183 7456</p>
+                    <p>ABN: (03) 9183 7456</p>
+                </div>
+
+            </div>
+            <p class="footer__copyright">
+                Copyright &copy; 2022 - All Rights Reserved | Privacy Policy | Terms and Conditions | J.K Myers
+            </p>
+            <div class="footer__socials flex">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./apps/js/script.js"></script>
+</body>
+</html>
