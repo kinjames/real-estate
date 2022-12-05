@@ -22,4 +22,16 @@
         width: 1140px;
         border: 2px solid red;
     }
+
+    &__logo {
+        img{
+            max-width: 100%;
+        }
+        @include breakpoint-up(large){
+            width: 15%;
+        }
+        @include breakpoint-down(small){
+            width: 35%;
+        }
+    }
 }

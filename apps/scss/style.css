@@ -765,6 +765,17 @@ header .header_mobile_menu a {
   position: absolute;
   left: 50%;
   top: -5%;
+  transform: translate(-50%);
+}
+@media (max-width: 63.9375em) {
+  .contact__arrow {
+    top: -3%;
+  }
+}
+@media (max-width: 63.9375em) {
+  .contact__arrow {
+    top: -4%;
+  }
 }
 .contact__header {
   text-align: center;
@@ -879,4 +890,17 @@ header .header_mobile_menu a {
 .footer__container {
   width: 1140px;
   border: 2px solid red;
+}
+.footer__logo img {
+  max-width: 100%;
+}
+@media (min-width: 64em) {
+  .footer__logo {
+    width: 15%;
+  }
+}
+@media (max-width: 39.9375em) {
+  .footer__logo {
+    width: 35%;
+  }
 }/*# sourceMappingURL=style.css.map */
