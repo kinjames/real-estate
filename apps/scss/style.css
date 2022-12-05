@@ -885,7 +885,7 @@ header .header_mobile_menu a {
 @media (max-width: 39.9375em) {
   .footer {
     height: 100%;
-    padding: 1.5rem 1.25rem;
+    padding: 2.5rem 1.25rem;
   }
 }
 .footer__container {
