@@ -82,4 +82,22 @@
             border-radius: 50%;
         }
     }
+
+    // BLOG
+    &__container{
+        width: 800px;
+        border: 2px solid red;
+        margin: 0 auto 4rem auto;
+        gap: 1.5rem;
+
+        .blog-1{
+            width: 520px;
+            border: 2px solid yellow;
+        }
+    }
+
+    &__search{
+        width: 256px;
+        border: 2px solid green;
+    }
 }

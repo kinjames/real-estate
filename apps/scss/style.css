@@ -65,6 +65,22 @@ body {
   margin-bottom: 5px;
 }
 
+.header_menu-1 > span {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #fff;
+  transition: all 300ms ease-in-out;
+  transform-origin: 3px 1px;
+}
+.header_menu-1 > span:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.nav__link-1 {
+  color: #fff;
+}
+
 .overlay {
   opacity: 0;
   position: fixed;
@@ -286,6 +302,42 @@ header .header_mobile_menu a {
   color: rgb(19, 37, 74);
   text-align: center;
   text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+.headers-1 {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background-image: linear-gradient(rgba(19, 37, 74, 0.6), rgba(19, 37, 74, 0.6)), url(../../images/h-bg1.jpg);
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-bottom: 5rem;
+}
+@media (max-width: 63.9375em) {
+  .headers-1 {
+    height: 30vh;
+  }
+}
+@media (max-width: 39.9375em) {
+  .headers-1 {
+    background-size: 150% 100%;
+    height: 30vh;
+  }
+}
+.headers-1 a {
+  color: #fff;
+}
+.headers-1 h1, .headers-1 .small__text {
+  text-align: center;
+}
+.headers-1 h1 {
+  font-weight: 500;
+  margin: 1.5rem;
+}
+.headers-1 .small__text {
   font-size: 0.875rem;
 }
 
@@ -740,6 +792,20 @@ header .header_mobile_menu a {
   color: #fff;
   border-radius: 50%;
 }
+.blog__container {
+  width: 800px;
+  border: 2px solid red;
+  margin: 0 auto 4rem auto;
+  gap: 1.5rem;
+}
+.blog__container .blog-1 {
+  width: 520px;
+  border: 2px solid yellow;
+}
+.blog__search {
+  width: 256px;
+  border: 2px solid green;
+}
 
 .contact {
   width: 100%;
@@ -773,7 +839,7 @@ header .header_mobile_menu a {
     top: -3%;
   }
 }
-@media (max-width: 63.9375em) {
+@media (max-width: 39.9375em) {
   .contact__arrow {
     top: -4%;
   }
@@ -783,6 +849,7 @@ header .header_mobile_menu a {
   line-height: 2rem;
   font-size: 1.4rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
   text-align: center;
 }
 @media (max-width: 63.9375em) {
@@ -935,6 +1002,9 @@ header .header_mobile_menu a {
 .footer__contact-text {
   margin-bottom: 0.875rem;
 }
+.footer__contact {
+  flex-direction: column;
+}
 .footer__about {
   font-size: 0.75rem;
 }
@@ -942,8 +1012,10 @@ header .header_mobile_menu a {
   display: grid;
   grid-template-columns: 40% 20% 30%;
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 30px;
+  grid-column-gap: 38px;
   grid-row-gap: 40px;
+  justify-content: center;
+  align-content: center;
 }
 @media (max-width: 39.9375em) {
   .footer__container {

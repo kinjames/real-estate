@@ -66,8 +66,12 @@
         }
     }
 
+
     &__contact-text{
         margin-bottom: 0.875rem;
+    }
+    &__contact{
+        flex-direction: column;
     }
 
 
@@ -80,8 +84,10 @@
         display: grid;
         grid-template-columns: 40% 20% 30%;
         grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 30px;
+        grid-column-gap: 38px;
         grid-row-gap: 40px;
+        justify-content: center;
+        align-content: center;
 
         @include breakpoint-down(small){
             display: flex;

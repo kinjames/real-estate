@@ -170,3 +170,43 @@ header{
         }
     }
 }
+
+.headers-1{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background-image:linear-gradient(rgba(19,37,74,.6),rgba(19,37,74,.6)), url(../../images/h-bg1.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    margin-bottom: 5rem;
+
+    @include breakpoint-down(medium){
+        height: 30vh;
+    }
+
+    @include breakpoint-down(small){
+        background-size: 150% 100%;
+        height: 30vh;
+    }
+
+    a {
+        color: #fff;
+    }
+
+    h1, .small__text {
+        text-align: center;
+    }
+
+    h1{
+        font-weight: 500;
+        margin: 1.5rem;
+    }
+
+    .small__text{
+        font-size: 0.875rem;
+    }
+
+
+}

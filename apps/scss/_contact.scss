@@ -27,7 +27,7 @@
         @include breakpoint-down(medium){
             top: -3%;
         }
-        @include breakpoint-down(medium){
+        @include breakpoint-down(small){
             top: -4%;
         }
     }
@@ -37,6 +37,7 @@
         line-height: 2rem;
         font-size: 1.4rem;
         margin-bottom: 1rem;
+        margin-top: 1rem;
         text-align: center;
 
         @include breakpoint-down(medium){
