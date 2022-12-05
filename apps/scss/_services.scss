@@ -1,7 +1,7 @@
 .service{
     width: 100%;
     text-align: center;
-    margin: 0 auto 4rem auto;
+    margin: 0 auto 5rem auto;
 
     @include breakpoint-down(small){
         width: 100%;
