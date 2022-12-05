@@ -152,10 +152,107 @@
 
     &__search{
         width: 256px;
-        border: 2px solid green;
+
 
         @include breakpoint-down(small){
+            width: 90%;
+            margin: 0 auto;
+        }
+    }
+
+    &__search-bar{
+        position: relative;
+        margin-bottom: 1rem;
+    }
+
+    &__input{
+        height: 40px;
+        width: 100%;
+        display: inline-block;
+        background-color: #fff;
+        padding: 1rem;
+        border: none;
+        outline: none;
+
+    }
+    &__search-button{
+        background-color: $deep-blue;
+        height: 30px;
+        position: absolute;
+        text-align: center;
+        width: 30px;
+        left: 87%;
+
+        i{
+            color: #fff;
+            font-size: 0.75rem;
+        }
+    }
+
+    &__recent-post{
+        background-color: #fff;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+
+        &-heading{
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            font-size: 1.25rem;
+            margin-bottom: 0.7rem;
+        }
+    }
+
+    &__link-list{
+        display: flex;
+        flex-direction: column;
+        gap: 0.65rem;
+        margin-bottom: 1.5rem;
+        a{
+            font-size: 0.75rem;
+            color: $deep-blue;
+        }
+    }
+
+    &__subscribe-btn{
+        height: 40px;
+        width: 100%;
+        background-color: $deep-blue;
+        color: #fff;
+        gap: 0.5rem;
+        padding-inline: 1rem;font-size: 0.65rem;
+        text-align: center;
+
+        i{
+            font-size: 0.975rem;
+        }
+    }
+
+    &__contact{
+        padding: 1.25rem 1rem 1rem;
+        background-color: $deep-blue;
+        color: #fff;
+
+        &-header{
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+
+        &-text{
+            font-size: 0.75rem;
+            margin-bottom: 1.25rem;
+        }
+        &-link{
+            height: 40px;
             width: 100%;
+            background-color: $deep-blue;
+            color: #fff;
+            gap: 0.5rem;
+            padding-inline: 1rem;
+            font-size: 0.75rem;
+            text-align: center;
+            font-weight: 700;
+            border: 2px solid $brown;
         }
     }
 }

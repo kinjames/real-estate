@@ -15,6 +15,28 @@ body {
   color: rgb(19, 37, 74);
 }
 
+h2 {
+  font-weight: 500;
+  margin: 1.5rem;
+}
+@media (max-width: 39.9375em) {
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+.line {
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 0.7rem;
+}
+
+@media (max-width: 63.9375em) {
+  .blog__main {
+    padding-inline: 12px;
+  }
+}
+
 .flex {
   display: flex;
 }
@@ -332,15 +354,6 @@ header .header_mobile_menu a {
 }
 .headers-1 h2, .headers-1 .small__text {
   text-align: center;
-}
-.headers-1 h2 {
-  font-weight: 500;
-  margin: 1.5rem;
-}
-@media (max-width: 39.9375em) {
-  .headers-1 h2 {
-    font-size: 2rem;
-  }
 }
 .headers-1 .small__text {
   font-size: 0.875rem;
@@ -859,12 +872,97 @@ header .header_mobile_menu a {
 }
 .blog__search {
   width: 256px;
-  border: 2px solid green;
 }
 @media (max-width: 39.9375em) {
   .blog__search {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
+}
+.blog__search-bar {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.blog__input {
+  height: 40px;
+  width: 100%;
+  display: inline-block;
+  background-color: #fff;
+  padding: 1rem;
+  border: none;
+  outline: none;
+}
+.blog__search-button {
+  background-color: rgb(19, 37, 74);
+  height: 30px;
+  position: absolute;
+  text-align: center;
+  width: 30px;
+  left: 87%;
+}
+.blog__search-button i {
+  color: #fff;
+  font-size: 0.75rem;
+}
+.blog__recent-post {
+  background-color: #fff;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+.blog__recent-post-heading {
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  font-size: 1.25rem;
+  margin-bottom: 0.7rem;
+}
+.blog__link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin-bottom: 1.5rem;
+}
+.blog__link-list a {
+  font-size: 0.75rem;
+  color: rgb(19, 37, 74);
+}
+.blog__subscribe-btn {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(19, 37, 74);
+  color: #fff;
+  gap: 0.5rem;
+  padding-inline: 1rem;
+  font-size: 0.65rem;
+  text-align: center;
+}
+.blog__subscribe-btn i {
+  font-size: 0.975rem;
+}
+.blog__contact {
+  padding: 1.25rem 1rem 1rem;
+  background-color: rgb(19, 37, 74);
+  color: #fff;
+}
+.blog__contact-header {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.blog__contact-text {
+  font-size: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+.blog__contact-link {
+  height: 40px;
+  width: 100%;
+  background-color: rgb(19, 37, 74);
+  color: #fff;
+  gap: 0.5rem;
+  padding-inline: 1rem;
+  font-size: 0.75rem;
+  text-align: center;
+  font-weight: 700;
+  border: 2px solid rgb(194, 158, 105);
 }
 
 .contact {

@@ -199,14 +199,7 @@ header{
         text-align: center;
     }
 
-    h2{
-        font-weight: 500;
-        margin: 1.5rem;
 
-        @include breakpoint-down(small){
-            font-size: 2rem;
-        }
-    }
 
     .small__text{
         font-size: 0.875rem;
