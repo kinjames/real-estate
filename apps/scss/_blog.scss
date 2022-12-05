@@ -83,21 +83,79 @@
         }
     }
 
+
     // BLOG
     &__container{
         width: 800px;
-        border: 2px solid red;
         margin: 0 auto 4rem auto;
+        color: $deep-blue;
         gap: 1.5rem;
+
+        @include breakpoint-down(medium){
+            width: 100%;
+        }
+        @include breakpoint-down(small){
+            flex-direction: column;
+            padding-inline: 12px;
+            gap: 3rem;
+        }
+
 
         .blog-1{
             width: 520px;
-            border: 2px solid yellow;
+            background-color: #fff;
+            padding: 1.25rem;
+
+            @include breakpoint-down(small){
+                width: 100%;
+            }
         }
+    }
+
+    &__title{
+        font-weight: 700;
+        line-height: 2rem;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
+
+        @include breakpoint-down(small){
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+    }
+
+    &__name-date{
+        font-size: 0.75rem;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    &__img{
+        width: 100%;
+        margin-bottom: 1rem;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    &__subheading{
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    &__texts{
+        font-size: 0.75rem;
+        margin-bottom: 1rem;
+        
     }
 
     &__search{
         width: 256px;
         border: 2px solid green;
+
+        @include breakpoint-down(small){
+            width: 100%;
+        }
     }
 }

@@ -195,13 +195,17 @@ header{
         color: #fff;
     }
 
-    h1, .small__text {
+    h2, .small__text {
         text-align: center;
     }
 
-    h1{
+    h2{
         font-weight: 500;
         margin: 1.5rem;
+
+        @include breakpoint-down(small){
+            font-size: 2rem;
+        }
     }
 
     .small__text{
