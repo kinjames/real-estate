@@ -951,7 +951,7 @@ header .header_mobile_menu a {
 }
 .blog__contact-text {
   font-size: 0.75rem;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
 }
 .blog__contact-link {
   height: 40px;
@@ -964,6 +964,7 @@ header .header_mobile_menu a {
   text-align: center;
   font-weight: 700;
   border: 2px solid rgb(194, 158, 105);
+  margin-bottom: 1rem;
 }
 
 .contact {

@@ -241,7 +241,7 @@
 
         &-text{
             font-size: 0.75rem;
-            margin-bottom: 1.25rem;
+            margin-bottom: 1.5rem;
         }
         &-link{
             height: 40px;
@@ -254,6 +254,7 @@
             text-align: center;
             font-weight: 700;
             border: 2px solid $brown;
+            margin-bottom: 1rem;
         }
     }
 }
