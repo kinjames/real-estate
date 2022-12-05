@@ -245,8 +245,8 @@ header .header__paragraph {
   }
 }
 header .header__icon-text {
-  -ms-writing-mode: sideways-rl;
-      writing-mode: sideways-rl;
+  -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
   text-transform: uppercase;
   font-size: 0.75rem;
   font-weight: 500;
@@ -724,6 +724,7 @@ header .header_mobile_menu a {
 .blog__link {
   justify-content: flex-end;
   font-size: 0.8rem;
+  text-align: center;
   color: rgb(19, 37, 74);
 }
 .blog__link i {
