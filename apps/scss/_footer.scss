@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    color: #fff;
+    background-color: $deep-blue;
+
+    @include breakpoint-up(large){
+        padding: 2.8rem 6.25rem;
+    }
+    @include breakpoint-down(medium){
+        padding: 4rem 1.25rem;
+        height: 55vh;
+    }
+
+    @include breakpoint-down(small){
+        height: 65vh;
+        padding: 1.5rem 1.25rem;
+    }
+
+    &__container{
+        
+    }
+}

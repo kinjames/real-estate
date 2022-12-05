@@ -12,9 +12,7 @@
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
-
-    
+    />    
     <link rel="stylesheet" href="./apps/scss/style.css">
     <title>Real Estate</title>
 </head>
@@ -63,8 +61,6 @@
 
     </header>
     <!-- HEADER END -->
-
-
     <!-- MAIN START -->
     <main>
         <section class="about flex">
@@ -425,25 +421,27 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
-            <div class="contact__arrow"></div>
+        <section class="contact flex flex-jc-c flex-ai-c">
+            <div class="contact__arrow flex flex-ai-c flex-jc-c"><i class="fas fa-arrow-down"></i></div>
             <p class="contact__header">GET IN TOUCH</p>
             <p class="contact__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aliquid sed blanditiis corrupti ullam magnam, doloremque mollitia!
             </p>
-            <form action="" class="contact__form">
-                <input type="text" placeholder="Your Name">
-                <input type="number" placeholder="Phone Number">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Message..."></textarea>
-                <button type="submit">SEND MESSAGE &nbsp; <i class="fas fa-long-arrow-alt-right"></i> </button>
+            <form action="" class="contact__form flex flex-jc-c flex-ai-c">
+                <div class="contact__info flex flex-jc-sb">
+                    <input type="text" placeholder="Your Name" class="contact__name">
+                    <input type="number" placeholder="Phone Number" class="contact__number">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message..." class="contact__textarea"></textarea>
+                <button type="submit" class="contact__btn flex flex-jc-c flex-ai-c">SEND MESSAGE &nbsp; <i class="fas fa-long-arrow-alt-right"></i> </button>
             </form>
         </section>
     </main>
     <!-- MAIN END -->
-
-
     <!-- FOOTER START -->
-    <footer>
-
+    <footer class="footer">
+        <div class="footer__container">
+            
+        </div>
     </footer>
     <!-- FOOTER END -->
 
