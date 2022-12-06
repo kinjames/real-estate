@@ -892,6 +892,7 @@ header .header_mobile_menu a {
   padding: 1rem;
   border: none;
   outline: none;
+  color: rgb(19, 37, 74);
 }
 .blog__search-button {
   background-color: rgb(19, 37, 74);
