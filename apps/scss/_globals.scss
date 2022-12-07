@@ -14,14 +14,14 @@ body{
     color: $deep-blue;
 }
 
-h2{
-    font-weight: 500;
-    margin: 1.5rem;
+// h2{
+//     font-weight: 500;
+//     margin: 1.5rem;
 
-    @include breakpoint-down(small){
-        font-size: 2rem;
-    }
-}
+//     @include breakpoint-down(small){
+//         font-size: 2rem;
+//     }
+// }
 
 .line{
     height: 1px;

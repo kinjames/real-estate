@@ -15,16 +15,6 @@ body {
   color: rgb(19, 37, 74);
 }
 
-h2 {
-  font-weight: 500;
-  margin: 1.5rem;
-}
-@media (max-width: 39.9375em) {
-  h2 {
-    font-size: 2rem;
-  }
-}
-
 .line {
   height: 1px;
   background-color: #ccc;
@@ -209,7 +199,7 @@ header .nav__items {
 header .nav__items .nav__links {
   text-transform: uppercase;
   font-size: 0.8125rem;
-  color: rgb(19, 37, 74);
+  color: inherit;
   padding: 0.5rem;
   transition: all 0.3s ease-in-out;
 }
@@ -355,8 +345,19 @@ header .header_mobile_menu a {
 .headers-1 h2, .headers-1 .small__text {
   text-align: center;
 }
+@media (max-width: 39.9375em) {
+  .headers-1 h2 {
+    font-size: 1.25rem;
+  }
+}
 .headers-1 .small__text {
   font-size: 0.875rem;
+  margin-top: 1rem;
+}
+@media (max-width: 39.9375em) {
+  .headers-1 .small__text {
+    font-size: 0.7rem;
+  }
 }
 
 .about {
