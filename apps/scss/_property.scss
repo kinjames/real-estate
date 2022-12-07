@@ -16,3 +16,13 @@
         }
     }
 }
+
+.splide{
+    visibility: visible;
+
+    &__slide img {
+        width: 100%;
+        height: auto;
+    }
+
+}
