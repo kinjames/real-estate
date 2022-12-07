@@ -1,0 +1,18 @@
+.property{
+
+    &__container{
+        width: 800px;
+        margin: 0 auto 4rem auto;
+        color: $deep-blue;
+        gap: 1.5rem;
+
+        @include breakpoint-down(medium){
+            width: 100%;
+        }
+        @include breakpoint-down(small){
+            flex-direction: column;
+            padding-inline: 12px;
+            gap: 3rem;
+        }
+    }
+}

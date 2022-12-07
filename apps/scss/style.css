@@ -1093,6 +1093,25 @@ header .header_mobile_menu a {
   color: #fff;
 }
 
+.property__container {
+  width: 800px;
+  margin: 0 auto 4rem auto;
+  color: rgb(19, 37, 74);
+  gap: 1.5rem;
+}
+@media (max-width: 63.9375em) {
+  .property__container {
+    width: 100%;
+  }
+}
+@media (max-width: 39.9375em) {
+  .property__container {
+    flex-direction: column;
+    padding-inline: 12px;
+    gap: 3rem;
+  }
+}
+
 .footer {
   width: 100%;
   height: 50vh;

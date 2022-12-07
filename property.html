@@ -12,7 +12,8 @@
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />    
+    />  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">  
     <link rel="stylesheet" href="./apps/scss/style.css">
     <title>Real Estate</title>
 </head>
@@ -69,6 +70,28 @@
                         <span>1</span>
                     </div>
                 </div>
+                <section id="thumbnail-carousel" class="splide" aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                    <div class="splide__track">
+                            <div class="splide__list">
+                                <div class="splide__slide">
+                                    <img src="./images/bed1.jpg" alt="Bedroom Image">
+                                </div>
+                                <div class="splide__slide">
+                                    <img src="./images/living1.jpg" alt="Living Room Image">
+                                </div>
+                                <div class="splide__slide">
+                                    <img src="./images/kitchen1.jpg" alt="Kitchen Image">
+                                </div>
+                                <div class="splide__slide">
+                                    <img src="./images/dinning1.jpg" alt="">
+                                </div>
+                                <div class="splide__slide">
+                                    <img src="./images/bath1.jpg" alt="">
+                                </div>
+                            </div>
+                    </div>
+                </section>
+
             </div>
             
         </div>
@@ -119,5 +142,6 @@
         </div>
     </footer>
     <script src="./apps/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 </body>
 </html>
