@@ -15,6 +15,25 @@ body {
   color: rgb(19, 37, 74);
 }
 
+::-moz-placeholder {
+  color: inherit;
+  font-size: 0.75rem;
+}
+
+:-ms-input-placeholder {
+  color: inherit;
+  font-size: 0.75rem;
+}
+
+::placeholder {
+  color: inherit;
+  font-size: 0.75rem;
+}
+
+input {
+  color: inherit;
+}
+
 .line {
   height: 1px;
   background-color: #ccc;
@@ -145,6 +164,11 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+}
+@media (max-width: 63.9375em) {
+  .property__bold-text {
+    font-size: 1rem;
+  }
 }
 @media (max-width: 39.9375em) {
   .property__bold-text {
@@ -1166,6 +1190,7 @@ header .header_mobile_menu a {
 @media (max-width: 63.9375em) {
   .property__container {
     width: 100%;
+    padding-inline: 0.7rem;
   }
 }
 @media (max-width: 39.9375em) {
@@ -1304,6 +1329,52 @@ header .header_mobile_menu a {
 }
 .property__features-details-9 {
   grid-area: 3/3/4/4;
+}
+.property__contact-agent {
+  width: 256px;
+  background-color: #fff;
+  color: rgb(19, 37, 74);
+  padding: 1.5rem 1rem;
+  height: 100%;
+}
+@media (max-width: 39.9375em) {
+  .property__contact-agent {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.property__contact-agent-form {
+  padding: 1rem 0;
+  width: 100%;
+}
+.property__contact-agent-form input {
+  width: 100%;
+  padding-inline: 1rem;
+  height: 40px;
+  margin-bottom: 0.875rem;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid rgb(19, 37, 74);
+}
+.property__contact-agent-form textarea {
+  margin-bottom: 0.875rem;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid rgb(19, 37, 74);
+  width: 100%;
+  padding: 1rem;
+}
+.property__contact-agent-form button {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  background-color: rgb(194, 158, 105);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  border: none;
+  outline: none;
 }
 
 .splide {

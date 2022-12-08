@@ -14,6 +14,15 @@ body{
     color: $deep-blue;
 }
 
+::placeholder{
+    color: inherit;
+    font-size: 0.75rem;
+}
+
+input {
+    color: inherit;
+}
+
 // h2{
 //     font-weight: 500;
 //     margin: 1.5rem;
@@ -170,6 +179,11 @@ body{
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
+
+
+    @include breakpoint-down(medium){
+        font-size: 1rem;
+    }
 
     @include breakpoint-down(small){
         font-size: 0.75rem;
