@@ -9,10 +9,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./favico/favicon-16x16.png">
     <link rel="manifest" href="./favico/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />  
+ 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">  
     <link rel="stylesheet" href="./apps/scss/style.css">
     <title>Real Estate</title>
@@ -47,7 +44,7 @@
         <p class="small__text">Home | For Lease</p>
     </header>
     <main class="property">
-        <div class="property__container">
+        <div class="property__container flex">
             <div class="property__details">
                 <h2 class="property__details-header">
                     35/275-281 BLAXLAND ROAD RYE
@@ -56,42 +53,94 @@
                 <p class="property__details-small-text">
                     Availability 1st January 2023
                 </p>
-                <div class="property__details-icons">
-                    <div class="property__detail-icon flex flex-ai-c">
+                <div class="property__details-icons flex">
+                    <div class="property__details-icon flex flex-ai-c">
                         <i class="fas fa-bed"></i>
                         <span>2</span>
                     </div>
-                    <div class="property__detail-icon flex flex-ai-c">
+                    <div class="property__details-icon flex flex-ai-c">
                         <i class="fas fa-bath"></i>
                         <span>2</span>
                     </div>
-                    <div class="property__detail-icon flex flex-ai-c">
+                    <div class="property__details-icon flex flex-ai-c">
                         <i class="fas fa-car"></i>
                         <span>1</span>
                     </div>
                 </div>
-                <section id="thumbnail-carousel" class="splide" aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+                <section
+                    id="main-carousel"
+                    class="splide main-splide"
+                    aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel."
+                    >
                     <div class="splide__track">
-                            <div class="splide__list">
-                                <div class="splide__slide">
-                                    <img src="./images/bed1.jpg" alt="Bedroom Image">
-                                </div>
-                                <div class="splide__slide">
-                                    <img src="./images/living1.jpg" alt="Living Room Image">
-                                </div>
-                                <div class="splide__slide">
-                                    <img src="./images/kitchen1.jpg" alt="Kitchen Image">
-                                </div>
-                                <div class="splide__slide">
-                                    <img src="./images/dinning1.jpg" alt="">
-                                </div>
-                                <div class="splide__slide">
-                                    <img src="./images/bath1.jpg" alt="">
-                                </div>
-                            </div>
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="./images/bed1.jpg" alt="Bedroom">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./images/living1.jpg" alt="Living Room">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./images/kitchen1.jpg" alt="Kitchen">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./images/dinning1.jpg" alt="Dinning Room">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./images/bath1.jpg" alt="Bathroom">
+                                </li>
+                            </ul>
                     </div>
                 </section>
+                <section
+                    id="thumbnail-carousel"
+                    class="splide thumbnail-splide"
+                    aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel."
+                    >
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="./images/bed1.jpg" alt="Bedroom">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./images/living1.jpg" alt="Living Room">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./images/kitchen1.jpg" alt="Kitchen">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./images/dinning1.jpg" alt="Dinning Room">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./images/bath1.jpg" alt="Bathroom">
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <div class="property__description">
+                    <p class="property__bold-text">
+                        BRAND NEW APARTMENT WITH WATER GLIMPSE
+                    </p>
+                    <div class="property__line">
 
+                    </div>
+                    <p class="property__description-small-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.
+                    </p>
+                    <p class="property__description-small-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.
+                    </p>
+                </div>
+
+                <div class="property__location">
+                    <div class="location-map flex flex-jc-sb flex-ai-c">
+                        <p class="property__bold-text unset">
+                            LOCATION
+                        </p>
+                        <a href="#" class="location-map-link flex flex-ai-c flex-jc-c">View on Google Maps</a>
+                    </div>
+                    <div class="property__line"></div>
+                </div>
             </div>
             
         </div>
@@ -141,7 +190,10 @@
             </div>
         </div>
     </footer>
-    <script src="./apps/js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"></script>
+    <script src="./apps/js/splide.js"></script>
+
+
 </body>
 </html>
