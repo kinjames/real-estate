@@ -199,3 +199,30 @@ body{
 .location-map{
     margin-bottom: 1rem;
 }
+
+.small-light-text{
+    font-size: 0.75rem;
+}
+
+.small-bold-text{
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+
+.tick-icon{
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid $deep-blue;
+
+    i{
+        border: 1px solid $deep-blue;
+        padding: 0.2rem;
+        font-size: 0.6rem;
+        border-radius: 50%;
+    }
+}
+
+.div__1{
+    border-bottom: 1px solid $deep-blue;
+    padding-bottom: 0.5rem;
+}
