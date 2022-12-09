@@ -857,7 +857,6 @@ header .header_mobile_menu a {
   height: 100%;
   border: 6px solid #fff;
   padding-bottom: 1rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 .blog__card-image {
   width: 100%;

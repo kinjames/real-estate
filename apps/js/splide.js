@@ -10,7 +10,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
     var thumbnails = new Splide( '#thumbnail-carousel', {
       fixedWidth  : 100,
       fixedHeight : 60,
-      gap         : 10,
+      gap         : 2,
       rewind      : true,
       arrows    : false,
       pagination  : false,
