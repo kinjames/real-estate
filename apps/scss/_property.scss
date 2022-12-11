@@ -201,6 +201,58 @@
         }
     }
 
+    &__main-page-1{
+        width: 1000px;
+        margin: 0 auto 4rem auto;
+        color: $deep-blue;
+        gap: 1.5rem;
+
+        @include breakpoint-down(medium){
+            width: 100%;
+            padding-inline: 0.7rem;
+        }
+        @include breakpoint-down(small){
+            flex-direction: column;
+            padding-inline: 12px;
+            gap: 3rem;
+        }
+    }
+
+    &__cards-list{
+        width: 720px;
+    }
+
+    &__cards-img-icons{
+        width: 45%;
+        position: relative; 
+    }
+
+    &__cards-img{
+        border: 3px solid #fff;
+
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__cards-texts{
+        width: 50%;
+        padding: 1.25rem;
+    }
+
+    &__cards{ 
+        background-color: #fff;
+    }
+
+    &__cards-icons{
+        position: absolute;
+        gap: 0.875rem;
+        left: 60%;
+        bottom: 10%;
+        color: #fff;
+    }
+
 }
 
 //splide

@@ -1375,6 +1375,53 @@ header .header_mobile_menu a {
   border: none;
   outline: none;
 }
+.property__main-page-1 {
+  width: 1000px;
+  margin: 0 auto 4rem auto;
+  color: rgb(19, 37, 74);
+  gap: 1.5rem;
+}
+@media (max-width: 63.9375em) {
+  .property__main-page-1 {
+    width: 100%;
+    padding-inline: 0.7rem;
+  }
+}
+@media (max-width: 39.9375em) {
+  .property__main-page-1 {
+    flex-direction: column;
+    padding-inline: 12px;
+    gap: 3rem;
+  }
+}
+.property__cards-list {
+  width: 720px;
+}
+.property__cards-img-icons {
+  width: 45%;
+  position: relative;
+}
+.property__cards-img {
+  border: 3px solid #fff;
+}
+.property__cards-img img {
+  width: 100%;
+  height: 100%;
+}
+.property__cards-texts {
+  width: 50%;
+  padding: 1.25rem;
+}
+.property__cards {
+  background-color: #fff;
+}
+.property__cards-icons {
+  position: absolute;
+  gap: 0.875rem;
+  left: 60%;
+  bottom: 10%;
+  color: #fff;
+}
 
 .splide {
   visibility: visible;
