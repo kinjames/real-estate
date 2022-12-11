@@ -227,20 +227,6 @@
         position: relative; 
     }
 
-    &__cards-img{
-        border: 3px solid #fff;
-
-        img{
-            width: 100%;
-            height: 100%;
-        }
-    }
-
-    &__cards-texts{
-        width: 50%;
-        padding: 1.25rem;
-    }
-
     &__cards{ 
         background-color: #fff;
     }
@@ -252,6 +238,29 @@
         bottom: 10%;
         color: #fff;
     }
+
+    &__cards-img{
+        border: 4px solid #fff;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    &__cards-texts{
+        width: 50%;
+        padding: 1.25rem;
+    }
+
+    &__cards-small__text{
+        font-size: 0.875rem;
+        margin: 0.75rem 0 1.25rem;
+    }
+    &__cards-para{
+        font-size: 0.875rem;
+    }
+
+
 
 }
 
