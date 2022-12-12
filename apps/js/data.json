@@ -1,0 +1,65 @@
+[
+    {
+        "image": "../../img1.jpg",
+        "icons": [0,2,3],
+        "price": "$400 / WEEK",
+        "location": "Sydney",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
+    },
+    {
+        "image": "../../img2.jpg",
+        "icons": [0,2,3],
+        "price": "$200 / WEEK",
+        "location": "Sydney",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
+    },
+    {
+        "image": "../../img3.jpg",
+        "icons": [0,2,3],
+        "price": "$300 / WEEK",
+        "location": "Sydney",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
+    },
+    {
+        "image": "../../img4.jpg",
+        "icons": [0,2,3],
+        "price": "$500 / WEEK",
+        "location": "Sydney",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
+    },
+    {
+        "image": "../../img5.jpg",
+        "icons": [0,2,3],
+        "price": "$600 / WEEK",
+        "location": "Sydney",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
+    },
+    {
+        "image": "../../img6.jpg",
+        "icons": [0,2,3],
+        "price": "$150 / WEEK",
+        "location": "Sydney",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
+    },
+    {
+        "image": "../../img7.jpg",
+        "icons": [1,2,3],
+        "price": "$200 / WEEK",
+        "location": "Sydney",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
+    },
+    {
+        "image": "../../img8.jpg",
+        "icons": [2,2,3],
+        "price": "$200 / WEEK",
+        "location": "Sydney",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
+    },
+    {
+        "image": "../../img9.jpg",
+        "icons": [2,3,1],
+        "price": "$350 / WEEK",
+        "location": "Sydney",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
+    }
+]

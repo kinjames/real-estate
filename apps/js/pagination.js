@@ -11,3 +11,9 @@
 list.innerHTML= listArray
 
 console.log(listArray)
+
+fetch ('./apps/js/data.json')
+    .then(response => response.json())
+    .then(data => {
+        console.log(data[1])
+    })
