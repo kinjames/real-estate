@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
   padding: 0rem;
@@ -1209,6 +1210,7 @@ header .header_mobile_menu a {
   }
 }
 .main__contact-heading {
+  font-family: "Lobster", cursive;
   text-transform: capitalize;
   font-size: 2rem;
   font-weight: 500;
@@ -1313,8 +1315,14 @@ header .header_mobile_menu a {
   outline: none;
   margin: 0 auto;
 }
+.main__contact-connect {
+  font-family: "Lobster", cursive;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
 .main__contact-socials {
   gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 .main__contact-socials a {
   height: 30px;
@@ -1328,6 +1336,10 @@ header .header_mobile_menu a {
 }
 .main__contact-socials a i {
   font-size: 0.875rem;
+}
+
+.maps {
+  width: 100%;
 }
 
 .property__container {

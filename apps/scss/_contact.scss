@@ -145,6 +145,7 @@
     }
 
     &-heading{
+        font-family: 'Lobster', cursive;
         text-transform: capitalize;
         font-size: 2rem;
         font-weight: 500;
@@ -246,8 +247,15 @@
         }
     }
 
+    &-connect{
+        font-family: 'Lobster', cursive;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }    
+
     &-socials{
         gap: 1rem;
+        margin-bottom: 1.5rem;
 
         a{
             height: 30px;
@@ -262,4 +270,8 @@
             i{font-size: 0.875rem;}
         }
     }
+}
+
+.maps{
+    width: 100%;
 }
