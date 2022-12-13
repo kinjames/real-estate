@@ -1180,12 +1180,33 @@ header .header_mobile_menu a {
   color: #fff;
 }
 
+@media (max-width: 63.9375em) {
+  .pad {
+    padding-inline: 2rem;
+  }
+}
+@media (max-width: 63.9375em) {
+  .pad {
+    padding-inline: 1.25rem;
+  }
+}
+
 .main__contact {
   width: 800px;
   margin: 0 auto 3rem;
   text-align: center;
   background-color: #fff;
-  border: 2px solid red;
+  padding: 1rem 0;
+}
+@media (max-width: 63.9375em) {
+  .main__contact {
+    width: 100%;
+  }
+}
+@media (max-width: 39.9375em) {
+  .main__contact {
+    width: 100%;
+  }
 }
 .main__contact-heading {
   text-transform: capitalize;
@@ -1193,6 +1214,12 @@ header .header_mobile_menu a {
   font-weight: 500;
   margin-bottom: 2.5rem;
   text-align: center;
+  margin-top: 1rem;
+}
+@media (max-width: 39.9375em) {
+  .main__contact-heading {
+    font-size: 1.25rem;
+  }
 }
 .main__contact-icon {
   display: flex;
@@ -1211,8 +1238,17 @@ header .header_mobile_menu a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+@media (max-width: 39.9375em) {
+  .main__contact-icons-details {
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: unset;
+  }
+}
 .main__contact-texts {
   font-size: 0.875rem;
+}
+.main__contact-texts p {
+  margin-bottom: 0.2rem;
 }
 .main__contact-mobile {
   margin-bottom: 3.5rem;
@@ -1226,11 +1262,24 @@ header .header_mobile_menu a {
   font-weight: 500;
   margin-bottom: 1.5rem;
 }
+@media (max-width: 39.9375em) {
+  .main__contact-subheadings {
+    font-size: 0.75rem;
+    padding-inline: 0.5rem;
+    margin-bottom: 2rem;
+  }
+}
 .main__contact-form {
   flex-direction: column;
   width: 400px;
   margin: 0 auto 3rem;
   gap: 1rem;
+}
+@media (max-width: 39.9375em) {
+  .main__contact-form {
+    width: 100%;
+    padding-inline: 1rem;
+  }
 }
 .main__contact-form input {
   height: 40px;
@@ -1255,6 +1304,16 @@ header .header_mobile_menu a {
   font-size: 0.875rem;
   color: inherit;
 }
+.main__contact-form button {
+  width: 150px;
+  height: 30px;
+  color: #fff;
+  background-color: rgb(194, 158, 105);
+  border: none;
+  outline: none;
+  margin: 0 auto;
+}
+
 .property__container {
   width: 1000px;
   margin: 0 auto 4rem auto;

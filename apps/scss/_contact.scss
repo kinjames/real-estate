@@ -121,12 +121,28 @@
 
 //Contact Page Main
 
+.pad{
+    @include breakpoint-down(medium){
+        padding-inline: 2rem;
+    }
+    @include breakpoint-down(medium){
+        padding-inline: 1.25rem;
+    }
+}
+
 .main__contact{
     width: 800px;
     margin: 0 auto 3rem;
     text-align: center;
     background-color: #fff;
-    border: 2px solid red;
+    padding: 1rem 0;
+
+    @include breakpoint-down(medium){
+        width: 100%;
+    }
+    @include breakpoint-down(small){
+        width: 100%;
+    }
 
     &-heading{
         text-transform: capitalize;
@@ -134,6 +150,11 @@
         font-weight: 500;
         margin-bottom: 2.5rem;
         text-align: center;
+        margin-top: 1rem;
+
+        @include breakpoint-down(small){
+            font-size: 1.25rem;
+        }
     }
 
     &-icon{
@@ -154,10 +175,19 @@
     &-icons-details{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+
+        @include breakpoint-down(small){
+            grid-template-rows: repeat(3, 1fr);
+            grid-template-columns: unset;
+        }
     }
 
     &-texts{
         font-size: 0.875rem;
+
+        p{
+            margin-bottom: 0.2rem;
+        }
     }
     &-mobile{
         margin-bottom: 3.5rem;
@@ -170,6 +200,12 @@
         gap: 0.2rem;
         font-weight: 500;
         margin-bottom: 1.5rem;
+
+        @include breakpoint-down(small){
+            font-size: 0.75rem;
+            padding-inline: 0.5rem;
+            margin-bottom: 2rem;
+        }
     }
 
     &-form{
@@ -177,6 +213,11 @@
         width: 400px;
         margin: 0 auto 3rem;
         gap: 1rem;
+
+        @include breakpoint-down(small){
+            width: 100%;
+            padding-inline: 1rem;
+        }
 
         input{
             height: 40px;
@@ -195,7 +236,13 @@
             color: inherit;
         }
         button{
-
+            width: 150px;
+            height: 30px;
+            color: #fff;
+            background-color: $brown;
+            border: none;
+            outline: none;
+            margin: 0 auto;
         }
     }
 }
