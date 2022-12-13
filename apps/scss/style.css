@@ -1183,15 +1183,78 @@ header .header_mobile_menu a {
 .main__contact {
   width: 800px;
   margin: 0 auto 3rem;
+  text-align: center;
+  background-color: #fff;
   border: 2px solid red;
 }
 .main__contact-heading {
   text-transform: capitalize;
   font-size: 2rem;
   font-weight: 500;
+  margin-bottom: 2.5rem;
   text-align: center;
 }
-
+.main__contact-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  color: rgb(194, 158, 105);
+  margin-bottom: 0.875rem;
+}
+.main__contact-icon i {
+  font-size: 2rem;
+}
+.main__contact-icon span {
+  font-size: 0.875rem;
+}
+.main__contact-icons-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.main__contact-texts {
+  font-size: 0.875rem;
+}
+.main__contact-mobile {
+  margin-bottom: 3.5rem;
+}
+.main__contact-subheadings {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.main__contact-form {
+  flex-direction: column;
+  width: 400px;
+  margin: 0 auto 3rem;
+  gap: 1rem;
+}
+.main__contact-form input {
+  height: 40px;
+  padding-inline: 1rem;
+  border: 1px solid rgb(19, 37, 74);
+  outline: none;
+}
+.main__contact-form textarea {
+  padding: 1rem;
+  border: 1px solid rgb(19, 37, 74);
+  outline: none;
+}
+.main__contact-form ::-moz-placeholder {
+  font-size: 0.875rem;
+  color: inherit;
+}
+.main__contact-form :-ms-input-placeholder {
+  font-size: 0.875rem;
+  color: inherit;
+}
+.main__contact-form ::placeholder {
+  font-size: 0.875rem;
+  color: inherit;
+}
 .property__container {
   width: 1000px;
   margin: 0 auto 4rem auto;
