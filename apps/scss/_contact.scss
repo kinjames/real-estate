@@ -245,4 +245,21 @@
             margin: 0 auto;
         }
     }
+
+    &-socials{
+        gap: 1rem;
+
+        a{
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            width: 30px;
+            background-color: $brown;
+            color: #fff;
+
+            i{font-size: 0.875rem;}
+        }
+    }
 }

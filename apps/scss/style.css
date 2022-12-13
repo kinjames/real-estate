@@ -1313,6 +1313,22 @@ header .header_mobile_menu a {
   outline: none;
   margin: 0 auto;
 }
+.main__contact-socials {
+  gap: 1rem;
+}
+.main__contact-socials a {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 30px;
+  background-color: rgb(194, 158, 105);
+  color: #fff;
+}
+.main__contact-socials a i {
+  font-size: 0.875rem;
+}
 
 .property__container {
   width: 1000px;
