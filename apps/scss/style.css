@@ -1322,7 +1322,7 @@ header .header_mobile_menu a {
   font-size: 1.5rem;
 }
 .main__contact-socials {
-  gap: 1rem;
+  gap: 1.5rem;
   margin-bottom: 1.5rem;
 }
 .main__contact-socials a {
@@ -1334,9 +1334,13 @@ header .header_mobile_menu a {
   width: 30px;
   background-color: rgb(194, 158, 105);
   color: #fff;
+  transition: all 0.3s ease-in-out;
 }
 .main__contact-socials a i {
   font-size: 0.875rem;
+}
+.main__contact-socials a:hover {
+  transform: scale(1.5);
 }
 
 .maps {

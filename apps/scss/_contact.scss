@@ -255,7 +255,7 @@
     }    
 
     &-socials{
-        gap: 1rem;
+        gap: 1.5rem;
         margin-bottom: 1.5rem;
 
         a{
@@ -267,8 +267,13 @@
             width: 30px;
             background-color: $brown;
             color: #fff;
+            transition: all 0.3s ease-in-out;
 
             i{font-size: 0.875rem;}
+
+            &:hover{
+                transform: scale(1.5);
+            }
         }
     }
 }
