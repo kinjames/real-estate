@@ -627,6 +627,11 @@ header .header_mobile_menu a {
   text-align: center;
   margin: 1rem auto 5rem;
 }
+@media (max-width: 39.9375em) {
+  .main__about-small-text {
+    width: 100%;
+  }
+}
 .main__about-para-text {
   font-size: 0.9rem;
   font-weight: 300;
@@ -661,6 +666,31 @@ header .header_mobile_menu a {
 }
 .main__about-team {
   margin-top: 5rem;
+}
+.main__about-team-members {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+@media (max-width: 39.9375em) {
+  .main__about-team-members {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: unset;
+    gap: 3rem;
+  }
+}
+.main__about-team-members-card {
+  background-color: #fff;
+  border: 2px solid red;
+  position: relative;
+}
+.main__about-team-members-card-image {
+  width: 80px;
+  height: 80px;
+}
+.main__about-team-members-card-image img {
+  width: 100%;
+  border-radius: 50%;
 }
 
 .service {

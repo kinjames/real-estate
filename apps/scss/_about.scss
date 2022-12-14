@@ -171,6 +171,10 @@
         width: 400px;
         text-align: center;
         margin: 1rem auto 5rem;
+
+        @include breakpoint-down(small){
+            width: 100%;
+        }
     }
 
     &-para-text{
@@ -207,5 +211,41 @@
         margin: 0 auto;
     }
 
-    &-team {margin-top: 5rem;}
+    &-team {
+        margin-top: 5rem;
+
+        &-members{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 1.25rem;
+
+            @include breakpoint-down(small){
+                grid-template-rows: repeat(4, 1fr);
+                grid-template-columns: unset;
+                gap: 3rem;
+            }
+
+            &-card{
+                background-color: #fff;
+                border: 2px solid red;
+                position: relative;
+
+                &-image{
+                    width: 80px;
+                    height: 80px;
+                    // position: absolute;
+                    // left: 50%;
+                    // transform: translateX(-50%);
+                    // top: -20%;
+                    // border-radius: 50%;
+                    // margin-bottom: -80px;
+
+                    img{
+                        width: 100%;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
 }
