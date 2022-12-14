@@ -1197,6 +1197,7 @@ header .header_mobile_menu a {
   margin: 0 auto 3rem;
   text-align: center;
   background-color: #fff;
+  border-radius: 8px;
   padding: 1rem 0;
 }
 @media (max-width: 63.9375em) {
@@ -1340,6 +1341,7 @@ header .header_mobile_menu a {
 
 .maps {
   width: 100%;
+  margin: 0 auto;
 }
 
 .property__container {
