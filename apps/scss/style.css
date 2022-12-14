@@ -556,6 +556,93 @@ header .header_mobile_menu a {
   }
 }
 
+@media (max-width: 63.9375em) {
+  .main__about {
+    padding-inline: 1.5rem;
+  }
+}
+.main__about-container {
+  width: 900px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+@media (max-width: 63.9375em) {
+  .main__about-container {
+    width: 100%;
+  }
+}
+.main__about-subheading {
+  font-family: "Lobster", cursive;
+  font-weight: 700;
+  color: rgb(194, 158, 105);
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 63.9375em) {
+  .main__about-subheading {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 39.9375em) {
+  .main__about-subheading {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+}
+.main__about-text, .main__about-img {
+  width: 45%;
+}
+@media (max-width: 39.9375em) {
+  .main__about-text, .main__about-img {
+    width: 100%;
+  }
+}
+.main__about-text {
+  padding: 0 1rem 1rem 1rem;
+  height: 100%;
+}
+@media (max-width: 39.9375em) {
+  .main__about-text {
+    text-align: center;
+  }
+}
+.main__about-img img {
+  width: 100%;
+}
+.main__about .extra {
+  text-align: center;
+}
+.main__about-small-text {
+  font-size: 1rem;
+  text-align: center;
+}
+.main__about-para-text {
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 1.25rem;
+}
+@media (max-width: 39.9375em) {
+  .main__about-para-text {
+    font-size: 0.875rem;
+  }
+}
+.main__about-img-text {
+  margin-bottom: 2.5rem;
+  gap: 2.5rem;
+}
+@media (max-width: 39.9375em) {
+  .main__about-img-text {
+    flex-direction: column-reverse;
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 39.9375em) {
+  .main__about .reverse {
+    flex-direction: column;
+  }
+}
+
 .service {
   width: 100%;
   text-align: center;
@@ -1289,11 +1376,13 @@ header .header_mobile_menu a {
   padding-inline: 1rem;
   border: 1px solid rgb(19, 37, 74);
   outline: none;
+  border-radius: 0.3rem;
 }
 .main__contact-form textarea {
   padding: 1rem;
   border: 1px solid rgb(19, 37, 74);
   outline: none;
+  border-radius: 0.3rem;
 }
 .main__contact-form ::-moz-placeholder {
   font-size: 0.875rem;
@@ -1311,6 +1400,7 @@ header .header_mobile_menu a {
   width: 150px;
   height: 30px;
   color: #fff;
+  border-radius: 0.3rem;
   background-color: rgb(194, 158, 105);
   border: none;
   outline: none;
