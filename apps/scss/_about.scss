@@ -112,7 +112,7 @@
     &-container{
         width: 900px;
         margin: 0 auto;
-        padding: 2rem 0;
+        padding: 0 0 2rem;
 
         @include breakpoint-down(medium){
             width: 100%;
@@ -134,7 +134,7 @@
             margin-bottom: 1rem;
         }
     }
-    &-text, &-img{
+    &-text{
         width: 45%;
 
         @include breakpoint-down(small){
@@ -152,6 +152,10 @@
     }
 
     &-img{
+        width: 50%;
+        @include breakpoint-down(small){
+            width: 100%;
+         }
         img{
             width: 100%;
         }
@@ -159,11 +163,14 @@
 
     .extra{
         text-align: center;
+        margin-bottom: 0.5rem;
     }
 
     &-small-text{
-        font-size: 1rem;
+        font-size: 0.95rem;
+        width: 400px;
         text-align: center;
+        margin: 1rem auto 5rem;
     }
 
     &-para-text{
@@ -192,4 +199,13 @@
             flex-direction: column;
         }
     }
+
+    &-line{
+        height: 5px;
+        width: 40px;
+        background-color: $brown;
+        margin: 0 auto;
+    }
+
+    &-team {margin-top: 5rem;}
 }
