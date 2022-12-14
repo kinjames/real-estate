@@ -222,29 +222,73 @@
             @include breakpoint-down(small){
                 grid-template-rows: repeat(4, 1fr);
                 grid-template-columns: unset;
-                gap: 3rem;
+                gap: 4rem;
             }
 
             &-card{
                 background-color: #fff;
-                border: 2px solid red;
                 position: relative;
+                text-align: center;
+                box-shadow: 0 4px 8px rgba(0,0,0,.3);
+                cursor: pointer;
+
+                &:hover{
+                    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+                    border-radius: 10px;
+                }
 
                 &-image{
                     width: 80px;
                     height: 80px;
-                    // position: absolute;
-                    // left: 50%;
-                    // transform: translateX(-50%);
-                    // top: -20%;
-                    // border-radius: 50%;
-                    // margin-bottom: -80px;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    border-radius: 50%;
+                    bottom: 80px;
+                    margin-bottom: 2rem;
 
                     img{
                         width: 100%;
                         border-radius: 50%;
                     }
+                }  
+                
+                &-name{
+                    margin-top: 2.8rem;
+                    margin-bottom: 0.3rem;
+                    color: $brown;
+                    font-weight: 500;
+
                 }
+
+                &-job{
+                    font-size: 0.875rem;
+                    margin-bottom: 1rem;
+                }
+
+                &-socials{
+                    gap: 0.5rem;
+                    margin-bottom: 1.5rem;
+            
+                    a{
+                        height: 25px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 5px;
+                        width: 25px;
+                        background-color: $brown;
+                        color: #fff;
+                        transition: all 0.3s ease-in-out;
+            
+                        i{font-size: 0.75rem;}
+            
+                        &:hover{
+                            transform: scale(1.5);
+                        }
+                    }
+                }
+                
             }
         }
     }

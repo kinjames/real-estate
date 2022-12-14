@@ -676,21 +676,64 @@ header .header_mobile_menu a {
   .main__about-team-members {
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: unset;
-    gap: 3rem;
+    gap: 4rem;
   }
 }
 .main__about-team-members-card {
   background-color: #fff;
-  border: 2px solid red;
   position: relative;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.main__about-team-members-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
 }
 .main__about-team-members-card-image {
   width: 80px;
   height: 80px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  bottom: 80px;
+  margin-bottom: 2rem;
 }
 .main__about-team-members-card-image img {
   width: 100%;
   border-radius: 50%;
+}
+.main__about-team-members-card-name {
+  margin-top: 2.8rem;
+  margin-bottom: 0.3rem;
+  color: rgb(194, 158, 105);
+  font-weight: 500;
+}
+.main__about-team-members-card-job {
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+.main__about-team-members-card-socials {
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.main__about-team-members-card-socials a {
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  width: 25px;
+  background-color: rgb(194, 158, 105);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.main__about-team-members-card-socials a i {
+  font-size: 0.75rem;
+}
+.main__about-team-members-card-socials a:hover {
+  transform: scale(1.5);
 }
 
 .service {
