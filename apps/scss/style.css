@@ -666,6 +666,7 @@ header .header_mobile_menu a {
 }
 .main__about-team {
   margin-top: 5rem;
+  margin-bottom: 7rem;
 }
 .main__about-team-members {
   display: grid;
@@ -734,6 +735,36 @@ header .header_mobile_menu a {
 }
 .main__about-team-members-card-socials a:hover {
   transform: scale(1.5);
+}
+.main__about-ratings {
+  background-color: #fff;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.main__about-ratings-awards {
+  flex-direction: column;
+  gap: 0.2rem;
+  text-align: center;
+}
+.main__about-ratings-awards span {
+  font-size: 0.875rem;
+}
+@media (max-width: 39.9375em) {
+  .main__about-ratings-awards span {
+    font-size: 0.725rem;
+  }
+}
+.main__about-ratings-awards .para {
+  margin-bottom: unset;
+  font-size: 3rem;
+}
+@media (max-width: 39.9375em) {
+  .main__about-ratings-awards .para {
+    font-size: 1.25rem;
+  }
 }
 
 .service {
