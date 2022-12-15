@@ -23,6 +23,10 @@ input {
     color: inherit;
 }
 
+li {
+    list-style-type: none;
+}
+
 // h2{
 //     font-weight: 500;
 //     margin: 1.5rem;
@@ -241,4 +245,27 @@ input {
 .div__1{
     border-bottom: 1px solid $deep-blue;
     padding-bottom: 0.5rem;
+}
+
+
+.pagination{
+   border: 2px solid red;
+   width: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 2rem auto 2rem;
+}
+
+.main__blog-page-card-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+    justify-items: center;
+
+    @include breakpoint-down(small){
+        grid-template-rows: repeat(9, 1fr);
+        grid-template-columns: unset;
+    }
 }
