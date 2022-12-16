@@ -282,11 +282,19 @@ li {
 
     @include breakpoint-down(medium){
         width: 100%;
-        gap: 1rem;
+        column-gap: 0.5rem;
+        row-gap: 0.5rem;
     }
 
     @include breakpoint-down(small){
         grid-template-rows: repeat(9, 1fr);
         grid-template-columns: unset;
+        row-gap: 2rem;
+    }
+}
+
+.main__blog-page-card{
+    @include breakpoint-down(small){
+        width: 100%;
     }
 }

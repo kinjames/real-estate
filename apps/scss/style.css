@@ -267,13 +267,22 @@ li {
 @media (max-width: 63.9375em) {
   .main__blog-page-card-list {
     width: 100%;
-    gap: 1rem;
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+    row-gap: 0.5rem;
   }
 }
 @media (max-width: 39.9375em) {
   .main__blog-page-card-list {
     grid-template-rows: repeat(9, 1fr);
     grid-template-columns: unset;
+    row-gap: 2rem;
+  }
+}
+
+@media (max-width: 39.9375em) {
+  .main__blog-page-card {
+    width: 100%;
   }
 }
 
