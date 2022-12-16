@@ -277,7 +277,7 @@
 
         @include breakpoint-down(medium){
             width: 100%;
-            padding-inline: 2rem;
+            padding-inline: 1.5rem;
         }
 
         @include breakpoint-down(small){

@@ -247,8 +247,9 @@ li {
   font-size: 0.875rem;
   padding: 0.5rem;
 }
-.paginate-numbers i {
-  font-size: 0.875rem;
+
+.small-num {
+  font-size: 0.75rem;
 }
 
 .active-page {
@@ -262,6 +263,12 @@ li {
   grid-template-rows: repeat(3, 1fr);
   gap: 2rem;
   justify-items: center;
+}
+@media (max-width: 63.9375em) {
+  .main__blog-page-card-list {
+    width: 100%;
+    gap: 1rem;
+  }
 }
 @media (max-width: 39.9375em) {
   .main__blog-page-card-list {
@@ -1320,7 +1327,7 @@ header .header_mobile_menu a {
 @media (max-width: 63.9375em) {
   .main__blog-page-container {
     width: 100%;
-    padding-inline: 2rem;
+    padding-inline: 1.5rem;
   }
 }
 @media (max-width: 39.9375em) {
