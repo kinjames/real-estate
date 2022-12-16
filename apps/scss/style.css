@@ -234,12 +234,26 @@ li {
 }
 
 .pagination {
-  border: 2px solid red;
-  width: 400px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  width: 250px;
+  justify-items: center;
   margin: 2rem auto 2rem;
+  cursor: pointer;
+}
+
+.paginate-numbers {
+  font-size: 0.875rem;
+  padding: 0.5rem;
+}
+.paginate-numbers i {
+  font-size: 0.875rem;
+}
+
+.active-page {
+  background-color: rgb(19, 37, 74);
+  color: #fff;
 }
 
 .main__blog-page-card-list {
