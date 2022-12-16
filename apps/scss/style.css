@@ -239,7 +239,7 @@ li {
   grid-template-columns: repeat(8, 1fr);
   width: 250px;
   justify-items: center;
-  margin: 2rem auto 2rem;
+  margin: 4rem auto 2rem;
   cursor: pointer;
 }
 
@@ -1329,7 +1329,7 @@ header .header_mobile_menu a {
 }
 
 .main__blog-page-container {
-  width: 900px;
+  width: 800px;
   margin: 0 auto;
   padding-top: 1rem;
 }
