@@ -27,8 +27,6 @@ function paginate__1() {
         blogHeader.forEach((e,i)=>{
             blogHeader[i].textContent = data[i].title
         })
-
-        numOne.classList.add('active-page')
     })
 
 }
@@ -49,8 +47,6 @@ function paginate__2() {
         blogHeader.forEach((e,i)=>{
             blogHeader[i].textContent = arr[i]?.title
         })
-        console.log(arr[1])
-        numTwo.classList.add('active-page')
     })
 }
 function paginate__3() {
@@ -70,8 +66,6 @@ function paginate__3() {
         blogHeader.forEach((e,i)=>{
             blogHeader[i].textContent = arr[i]?.title
         })
-        console.log(arr[1])
-        numThree.classList.add('active-page')
     })
 }
 
@@ -107,26 +101,6 @@ window.onload = numOne.classList.add('active-page')
 
 
 
-
-// function paginate__1(){
-//     reqData()
-
-// }
-
-// reqData();
-
-
-
-
-
-
-// fetch('./apps/js/blog.json')
-//     .then(response => response.json())
-//     .then(data => {
-//         console.log(data.splice(0,9));
-//     })
-
-
 // const listArray = [];
 // let blogCard = '<li class="main__blog-page-card blog__card">'
 // + '<div class="blog__card-image">'+ 
@@ -146,63 +120,3 @@ window.onload = numOne.classList.add('active-page')
 // '</i>'+
 // '</a>'
 // +'</li>'
-
-
-// else if(styles.contains('two')){
-//     let arr = data.splice(9,18)
-//     blogCardText.forEach((e,i)=>{
-//         blogCardText[i].textContent = arr[i].summary
-//     })
-//     blogHeader.forEach((e,i)=>{
-//         blogHeader[i].textContent = arr[i].title
-//     })
-//     blogImage.forEach((e,i)=>{
-//         blogImage[i].src = arr[i].image
-//     })
-// }
-
-
-        // for (let i = 0; i < data.length; i++) {
-        //     console.log(data[i])
-        //     blogCardText[i].classList = data[i]
-        //     // listArray.push(blogCard);
-        //     // console.log(listArray)
-        //     // mainCardList.innerHTML = listArray
-        // }
-
-                // paginateNumbers.forEach(paginate__numbers =>{
-        //     paginate__numbers.addEventListener('click', (e)=>{
-        //         const styles = e.currentTarget.classList;
-                
-        
-        //         if(styles.contains('one')){
-        //             let arr = data.splice(0,9)
-        //             blogCardText.forEach((e,i)=>{
-        //                 blogCardText[i].textContent = data[i].summary
-        //             })
-        //             console.log(arr)
-        //         }else if(styles.contains('two')){
-        //             let arr = data.splice(9,18)
-        //             blogCardText.forEach((e,i)=>{
-        //                 blogCardText[i].textContent = arr[i].summary
-        //             })
-        //             blogHeader.forEach((e,i)=>{
-        //                 blogHeader[i].textContent = arr[i].title
-        //             })
-        //             blogImage.forEach((e,i)=>{
-        //                 blogImage[i].src = arr[i].image
-        //             })
-        //         }
-        //     })
-        // })
-
-
-                // blogCardText.forEach((e,i)=>{
-        //     blogCardText[i].textContent = data[i].summary
-        // })
-        // blogHeader.forEach((e,i)=>{
-        //     blogHeader[i].textContent = data[i].title
-        // })
-        // blogImage.forEach((e,i)=>{
-        //     blogImage[i].src = data[i].image
-        // })
