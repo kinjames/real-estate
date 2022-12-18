@@ -4,53 +4,79 @@ let blogCardText = document.querySelectorAll('.blog__text');
 let blogImage = document.querySelectorAll('.blogImagesJs');
 let blogHeader = document.querySelectorAll('.blog__subheader');
 let paginateNumbers = document.querySelectorAll('.paginate__numbers')
+const numOne = document.querySelector('.one')
+const numTwo = document.querySelector('.two')
 
 
 
 
 
-function reqData() {
+function paginate__1() {
     fetch('./apps/js/blog.json')
     .then(response => response.json())
     .then(data => {
-
-        // blogCardText.forEach((e,i)=>{
-        //     blogCardText[i].textContent = data[i].summary
-        // })
-        blogHeader.forEach((e,i)=>{
-            blogHeader[i].textContent = data[i].title
+        blogCardText.forEach((e,i)=>{
+            blogCardText[i].textContent = data[i].summary
         })
+
         blogImage.forEach((e,i)=>{
             blogImage[i].src = data[i].image
         })
-        paginateNumbers.forEach(paginate__numbers =>{
-            paginate__numbers.addEventListener('click', (e,i)=>{
-                const styles = e.currentTarget.classList;
-                
-        
-                if(styles.contains('one')){
-                    let arr = [];
-                    arr.push(data.splice(0,9))
-                    for (let i = 0; i < arr.length; i++) {
-                        blogCardText[i].textContent = data[i].summary  
-                    }
-                    console.log('num1');
-                }
-            })
+
+        blogHeader.forEach((e,i)=>{
+            blogHeader[i].textContent = data[i].title
         })
 
+        numOne.classList.add('active-page')
+    })
 
-        // for (let i = 0; i < data.length; i++) {
-        //     console.log(data[i])
-        //     blogCardText[i].classList = data[i]
-        //     // listArray.push(blogCard);
-        //     // console.log(listArray)
-        //     // mainCardList.innerHTML = listArray
-        // }
+}
+function paginate__2() {
+    fetch('./apps/js/blog.json')
+    .then(response => response.json())
+    .then(data => {
+        let arr = data.splice(9,9);
+
+        // blogCardText.forEach((e,i)=>{
+        //     blogCardText[i].textContent = arr[i].summary
+        // })
+
+        blogImage.forEach((e,i)=>{
+            blogImage[i].src = arr[i].image
+        })
+
+        blogHeader.forEach((e,i)=>{
+            blogHeader[i].textContent = arr[i].title
+        })
+        console.log(arr)
+        numTwo.classList.add('active-page')
     })
 }
 
-reqData();
+
+
+// function paginate__1(){
+//     reqData()
+
+// }
+
+// reqData();
+
+window.onload = paginate__2();
+
+paginateNumbers.forEach(paginate__numbers =>{
+    paginate__numbers.addEventListener('click', (e)=>{
+        const styles = e.currentTarget.classList;
+        if(styles.contains('one')){
+            let arr = data.splice(0,9)
+            blogCardText.forEach((e,i)=>{
+                blogCardText[i].textContent = data[i].summary
+            })
+            numOne.classList.add('active-page')
+            
+        }
+    })
+})
 
 
 // fetch('./apps/js/blog.json')
@@ -79,3 +105,63 @@ reqData();
 // '</i>'+
 // '</a>'
 // +'</li>'
+
+
+// else if(styles.contains('two')){
+//     let arr = data.splice(9,18)
+//     blogCardText.forEach((e,i)=>{
+//         blogCardText[i].textContent = arr[i].summary
+//     })
+//     blogHeader.forEach((e,i)=>{
+//         blogHeader[i].textContent = arr[i].title
+//     })
+//     blogImage.forEach((e,i)=>{
+//         blogImage[i].src = arr[i].image
+//     })
+// }
+
+
+        // for (let i = 0; i < data.length; i++) {
+        //     console.log(data[i])
+        //     blogCardText[i].classList = data[i]
+        //     // listArray.push(blogCard);
+        //     // console.log(listArray)
+        //     // mainCardList.innerHTML = listArray
+        // }
+
+                // paginateNumbers.forEach(paginate__numbers =>{
+        //     paginate__numbers.addEventListener('click', (e)=>{
+        //         const styles = e.currentTarget.classList;
+                
+        
+        //         if(styles.contains('one')){
+        //             let arr = data.splice(0,9)
+        //             blogCardText.forEach((e,i)=>{
+        //                 blogCardText[i].textContent = data[i].summary
+        //             })
+        //             console.log(arr)
+        //         }else if(styles.contains('two')){
+        //             let arr = data.splice(9,18)
+        //             blogCardText.forEach((e,i)=>{
+        //                 blogCardText[i].textContent = arr[i].summary
+        //             })
+        //             blogHeader.forEach((e,i)=>{
+        //                 blogHeader[i].textContent = arr[i].title
+        //             })
+        //             blogImage.forEach((e,i)=>{
+        //                 blogImage[i].src = arr[i].image
+        //             })
+        //         }
+        //     })
+        // })
+
+
+                // blogCardText.forEach((e,i)=>{
+        //     blogCardText[i].textContent = data[i].summary
+        // })
+        // blogHeader.forEach((e,i)=>{
+        //     blogHeader[i].textContent = data[i].title
+        // })
+        // blogImage.forEach((e,i)=>{
+        //     blogImage[i].src = data[i].image
+        // })
