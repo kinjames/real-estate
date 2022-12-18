@@ -3,6 +3,7 @@ let mainCardList = document.querySelector('.main__blog-page-card-list');
 let blogCardText = document.querySelectorAll('.blog__text');
 let blogImage = document.querySelectorAll('.blogImagesJs');
 let blogHeader = document.querySelectorAll('.blog__subheader');
+let link = document.querySelectorAll('.blog__link');
 let paginateNumbers = document.querySelectorAll('.paginate__numbers')
 const numOne = document.querySelector('.one')
 const numTwo = document.querySelector('.two')
