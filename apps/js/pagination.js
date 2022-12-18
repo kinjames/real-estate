@@ -35,20 +35,41 @@ function paginate__2() {
     fetch('./apps/js/blog.json')
     .then(response => response.json())
     .then(data => {
-        let arr = data.splice(9,9);
+        let arr = data.splice(9,9)
 
-        // blogCardText.forEach((e,i)=>{
-        //     blogCardText[i].textContent = arr[i].summary
-        // })
+        blogCardText.forEach((e,i)=>{
+            blogCardText[i].textContent = arr[i]?.summary
+        })
 
         blogImage.forEach((e,i)=>{
-            blogImage[i].src = arr[i].image
+            blogImage[i].src = arr[i]?.image
         })
 
         blogHeader.forEach((e,i)=>{
-            blogHeader[i].textContent = arr[i].title
+            blogHeader[i].textContent = arr[i]?.title
         })
-        console.log(arr)
+        console.log(arr[1])
+        numTwo.classList.add('active-page')
+    })
+}
+function paginate__3() {
+    fetch('./apps/js/blog.json')
+    .then(response => response.json())
+    .then(data => {
+        let arr = data.splice(18,9)
+
+        blogCardText.forEach((e,i)=>{
+            blogCardText[i].textContent = arr[i]?.summary
+        })
+
+        blogImage.forEach((e,i)=>{
+            blogImage[i].src = arr[i]?.image
+        })
+
+        blogHeader.forEach((e,i)=>{
+            blogHeader[i].textContent = arr[i]?.title
+        })
+        console.log(arr[1])
         numTwo.classList.add('active-page')
     })
 }
@@ -62,21 +83,22 @@ function paginate__2() {
 
 // reqData();
 
-window.onload = paginate__2();
+window.onload = paginate__3();
 
-paginateNumbers.forEach(paginate__numbers =>{
-    paginate__numbers.addEventListener('click', (e)=>{
-        const styles = e.currentTarget.classList;
-        if(styles.contains('one')){
-            let arr = data.splice(0,9)
-            blogCardText.forEach((e,i)=>{
-                blogCardText[i].textContent = data[i].summary
-            })
-            numOne.classList.add('active-page')
+// paginateNumbers.forEach(paginate__numbers =>{
+//     paginate__numbers.addEventListener('click', (e)=>{
+//         const styles = e.currentTarget.classList;
+//         if(styles.contains('one')){
+//             let arr = [];
+//             arr.push(data.splice(9,9))
+//             blogCardText.forEach((e,i)=>{
+//                 blogCardText[i].textContent = data[i].summary
+//             })
+//             numOne.classList.add('active-page')
             
-        }
-    })
-})
+//         }
+//     })
+// })
 
 
 // fetch('./apps/js/blog.json')
