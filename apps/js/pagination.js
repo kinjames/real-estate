@@ -8,6 +8,20 @@ let paginateNumbers = document.querySelectorAll('.paginate__numbers')
 const numOne = document.querySelector('.one')
 const numTwo = document.querySelector('.two')
 const numThree = document.querySelector('.three')
+const paginationContainer = document.querySelector('.pagination')
+const mainBlogPage = document.querySelector('.main__blog-page')
+const subBlogPage = document.querySelector('.blog__main')
+
+//
+const subHeading = document.querySelector('.blog__subheading');
+const subImage = document.querySelector('.subBlogImage');
+const para1 = document.querySelector('.para_1');
+const para2 = document.querySelector('.para_2');
+const para3 = document.querySelector('.para_3');
+const para4 = document.querySelector('.para_4');
+const subTitle = document.querySelector('.blog__title');
+const authorName = document.querySelector('.authorName');
+const dateNum = document.querySelector('.dateNum');
 
 
 
@@ -98,7 +112,29 @@ paginateNumbers.forEach(paginate__numbers =>{
 
 
 window.onload = paginate__1();
-window.onload = numOne.classList.add('active-page') 
+window.onload = numOne.classList.add('active-page');
+
+function blog(){
+    fetch('./apps/js/blog.json')
+    .then(response => response.json())
+    .then(data => {
+        for (let i = 0; i < data.length; i++) {
+            subHeading.innerHTML = data[i].subheading;
+            console.log(data[i].subheading)
+        }
+    })
+}
+
+link.forEach(link=>{
+    link.addEventListener('click', ()=>{
+        if(subBlogPage.classList.contains('hide')){
+            subBlogPage.classList.remove('hide');
+            mainBlogPage.classList.add('hide');
+            paginationContainer.classList.add('hide');
+
+        }
+    })
+})
 
 
 
