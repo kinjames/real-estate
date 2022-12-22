@@ -1140,7 +1140,7 @@ header .header_mobile_menu a {
 }
 .blog__card-image {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 16px;
 }
 .blog__card-image img {
   width: 100%;
