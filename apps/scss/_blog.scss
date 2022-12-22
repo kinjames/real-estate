@@ -304,8 +304,9 @@
             width: 100%;
             display: inline-block;
             background-color: #fff;
-            padding-left: 1rem;
-            padding-right: 0.5rem;
+            // padding-left: 1rem;
+            // padding-right: 0.5rem;
+            padding: 0 0.5rem 0 1rem;
             outline: none;
             border: 1px solid $deep-blue;
             font-size: 0.875rem;
