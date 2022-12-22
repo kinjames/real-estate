@@ -248,8 +248,8 @@ link.forEach(link=>{
             mainBlogPage.classList.add('hide');
             paginationContainer.classList.add('hide');
             blog()
-            // paginate__2();
-            // paginate__3();
+            paginate__2();
+            paginate__3();
         }
     })
 })
