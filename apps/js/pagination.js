@@ -43,12 +43,18 @@ function paginate__1() {
             blogHeader[i].textContent = data[i].title
         })
 
-        subHeading.forEach((e,i)=>{
-            subHeading[i].textContent = data[i].subheading
-        })
-        subImage.forEach((e,i)=>{
-            subImage[i].src = data[3].image
-        })
+        for (let i = 0; i < data.length; i++) {
+            // subHeading[i].innerHTML = data[i]?.subheading
+            subHeading.forEach((e,i)=>{
+                subHeading[i].textContent = data[i].subheading
+            })
+            // subImage.forEach((e,i)=>{
+            //     subImage[i].src = data[i].image
+            // })
+            
+        }
+
+
         subTitle.forEach((e,i)=>{
             subTitle[i].textContent = data[i].title
         })
