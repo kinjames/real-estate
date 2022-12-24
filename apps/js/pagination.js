@@ -103,27 +103,29 @@ function paginate__2() {
         subImage.forEach((e,i)=>{
             subImage[i].src = arr[i]?.image
         })
-        // subTitle.forEach((e,i)=>{
-        //     subTitle[i].textContent = arr[i]?.title
-        // })
-        // authorName.forEach((e,i)=>{
-        //     authorName[i].textContent = arr[i]?.writer
-        // })
-        // dateNum.forEach((e,i)=>{
-        //     dateNum[i].textContent = arr[i]?.date
-        // })
-        // para1.forEach((e,i)=>{
-        //     para1[i].textContent = arr[i]?.para1
-        // })
-        // para2.forEach((e,i)=>{
-        //     para2[i].textContent = arr[i]?.para2
-        // })
-        // para3.forEach((e,i)=>{
-        //     para3[i].textContent = arr[i]?.para3
-        // })
-        // para4.forEach((e,i)=>{
-        //     para4[i].textContent = arr[i]?.para4
-        // })
+
+        // check
+        subTitle.forEach((e,i)=>{
+            subTitle[i].textContent = arr[i]?.title
+        })
+        authorName.forEach((e,i)=>{
+            authorName[i].textContent = arr[i]?.writer
+        })
+        dateNum.forEach((e,i)=>{
+            dateNum[i].textContent = arr[i]?.date
+        })
+        para1.forEach((e,i)=>{
+            para1[i].textContent = arr[i]?.para1
+        })
+        para2.forEach((e,i)=>{
+            para2[i].textContent = arr[i]?.para2
+        })
+        para3.forEach((e,i)=>{
+            para3[i].textContent = arr[i]?.para3
+        })
+        para4.forEach((e,i)=>{
+            para4[i].textContent = arr[i]?.para4
+        })
     })
 }
 function paginate__3() {
