@@ -1876,6 +1876,7 @@ header .header_mobile_menu a {
   margin: 0 auto 4rem auto;
   color: rgb(19, 37, 74);
   gap: 1.5rem;
+  border: 2px solid red;
 }
 @media (max-width: 63.9375em) {
   .property__main-page-1 {
