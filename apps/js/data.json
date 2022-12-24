@@ -1,27 +1,27 @@
 [
     {
-        "image": "../../img1.jpg",
+        "image": "./images/img1.jpg",
         "icons": [0,2,3],
         "price": "$400 / WEEK",
         "location": "Sydney",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
     },
     {
-        "image": "../../img2.jpg",
+        "image": "./images/img2.jpg",
         "icons": [0,2,3],
         "price": "$200 / WEEK",
         "location": "Sydney",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
     },
     {
-        "image": "../../img3.jpg",
+        "image": "./images/img3.jpg",
         "icons": [0,2,3],
         "price": "$300 / WEEK",
         "location": "Sydney",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit odit animi molestiae libero odio magni fug. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum mollitia,"
     },
     {
-        "image": "../../img4.jpg",
+        "image": "./images/img4.jpg",
         "icons": [0,2,3],
         "price": "$500 / WEEK",
         "location": "Sydney",
