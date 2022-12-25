@@ -1886,7 +1886,7 @@ header .header_mobile_menu a {
 }
 @media (max-width: 39.9375em) {
   .property__main-page-1 {
-    flex-direction: column;
+    flex-direction: column-reverse;
     padding-inline: 12px;
     gap: 3rem;
   }
@@ -1964,9 +1964,23 @@ header .header_mobile_menu a {
 }
 @media (max-width: 39.9375em) {
   .lease__form {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
+}
+.lease__form-header {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+.lease__form ::-moz-placeholder {
+  font-size: 0.875rem;
+}
+.lease__form :-ms-input-placeholder {
+  font-size: 0.875rem;
+}
+.lease__form ::placeholder {
+  font-size: 0.875rem;
 }
 .lease__form input, .lease__form select {
   width: 100%;
@@ -1975,6 +1989,7 @@ header .header_mobile_menu a {
   background-color: #fff;
   color: rgb(19, 37, 74);
   outline: none;
+  font-size: 0.875rem;
   border: 1px solid rgb(19, 37, 74);
 }
 

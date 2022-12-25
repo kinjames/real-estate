@@ -214,7 +214,7 @@
             padding-inline: 0.7rem;
         }
         @include breakpoint-down(small){
-            flex-direction: column;
+            flex-direction: column-reverse;
             padding-inline: 12px;
             gap: 3rem;
         }
@@ -306,12 +306,17 @@
     gap: 1rem;
 
     @include breakpoint-down(small){
-        width: 90%;
+        width: 100%;
         margin: 0 auto;
     }
 
     &-header{
-
+        font-weight: 700;
+        font-size: 2rem;
+        text-align: center;
+    }
+    ::placeholder{
+        font-size: 0.875rem;
     }
 
     input, select {
@@ -321,6 +326,7 @@
         background-color: #fff;
         color: $deep-blue;
         outline: none;
+        font-size: 0.875rem;
         border: 1px solid $deep-blue;
     }
 }
