@@ -208,7 +208,7 @@
         padding: 1rem 0 0 0;
         color: $deep-blue;
         gap: 1.5rem;
-        border: 2px solid red;
+
 
         @include breakpoint-down(medium){
             width: 100%;
@@ -293,6 +293,11 @@
 }
 
 .lease__card{
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    gap: 1.25rem;
+    border: 2px solid red;
 
 }
 

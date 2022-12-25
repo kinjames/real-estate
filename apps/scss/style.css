@@ -1877,7 +1877,6 @@ header .header_mobile_menu a {
   padding: 1rem 0 0 0;
   color: rgb(19, 37, 74);
   gap: 1.5rem;
-  border: 2px solid red;
 }
 @media (max-width: 63.9375em) {
   .property__main-page-1 {
@@ -1951,6 +1950,14 @@ header .header_mobile_menu a {
 
 #thumbnail-carousel {
   margin-bottom: 3rem;
+}
+
+.lease__card {
+  position: relative;
+  background-color: #fff;
+  display: flex;
+  gap: 1.25rem;
+  border: 2px solid red;
 }
 
 .lease__form {
