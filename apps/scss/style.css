@@ -1874,6 +1874,7 @@ header .header_mobile_menu a {
 .property__main-page-1 {
   width: 1000px;
   margin: 0 auto 4rem auto;
+  padding: 1rem 0 0 0;
   color: rgb(19, 37, 74);
   gap: 1.5rem;
   border: 2px solid red;
@@ -1991,6 +1992,16 @@ header .header_mobile_menu a {
   outline: none;
   font-size: 0.875rem;
   border: 1px solid rgb(19, 37, 74);
+}
+.lease__form button {
+  height: 40px;
+  color: #fff;
+  background-color: rgb(194, 158, 105);
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 1.2px;
 }
 
 .footer {
