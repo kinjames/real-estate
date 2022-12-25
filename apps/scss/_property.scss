@@ -291,4 +291,37 @@
     margin-bottom: 3rem;
 }
 
+.lease__card{
+
+}
+
+.lease__form{
+    width: 256px;
+    background-color: #fff;
+    color: $deep-blue;
+    padding: 1.5rem 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    @include breakpoint-down(small){
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &-header{
+
+    }
+
+    input, select {
+        width: 100%;
+        padding-inline: 1rem;
+        height: 40px;
+        background-color: #fff;
+        color: $deep-blue;
+        outline: none;
+        border: 1px solid $deep-blue;
+    }
+}
 

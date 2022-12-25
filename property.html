@@ -45,7 +45,7 @@
         <p class="small__text">Home | Listings</p>
     </header>
     <main class="property">
-        <div class="property__main-page-1">
+        <div class="property__main-page-1 flex">
             <div class="property__cards-list">
                 <div class="lease__card">
                     <div class="lease__card-image-icons">
@@ -90,7 +90,7 @@
                 </div> -->
             </div>
             <form action="" class="lease__form">
-                <p class="lease__form-header"></p>
+                <p class="lease__form-header">ADVANCED SEARCH</p>
                 <p class="lease__form-text"></p>
                 <input type="text" class="lease__form-input" placeholder="Type address city or area">
                 <select name="bedroom" id="">
@@ -115,8 +115,19 @@
                     <option value="4">4</option>
                 </select>
             </form>
+
         </div>
-        <div class="property__container flex hide">
+        <ul class="pagination">
+            <li class="paginate__numbers"><i class="fas fa-less-than small-num"></i></li>
+            <li class="paginate__numbers one">1</li>
+            <li class="paginate__numbers two">2</li>
+            <li class="paginate__numbers three">3</li>
+            <li class="paginate__numbers">4</li>
+            <li class="paginate__numbers">5</li>
+            <li class="paginate__numbers">6</li>
+            <li class="paginate__numbers"><i class="fas fa-greater-than small-num"></i></li>
+        </ul>
+        <div class="property__container flex">
             <div class="property__details">
                 <h2 class="property__details-header">
                     35/275-281 BLAXLAND ROAD RYE
