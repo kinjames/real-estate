@@ -1893,6 +1893,14 @@ header .header_mobile_menu a {
 }
 .property__cards-list {
   width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+@media (max-width: 39.9375em) {
+  .property__cards-list {
+    width: 100%;
+  }
 }
 .property__cards-img-icons {
   width: 45%;
@@ -2074,12 +2082,6 @@ header .header_mobile_menu a {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 1.2px;
-}
-
-@media (max-width: 39.9375em) {
-  .property__cards-list {
-    width: 100%;
-  }
 }
 
 .footer {

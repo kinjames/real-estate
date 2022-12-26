@@ -223,6 +223,13 @@
 
     &__cards-list{
         width: 720px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        @include breakpoint-down(small){
+            width: 100%;
+        }
     }
 
     &__cards-img-icons{
@@ -418,8 +425,7 @@
 }
 
 .property__cards-list{
-    @include breakpoint-down(small){
-        width: 100%;
-    }
+
+
 }
 
