@@ -1957,7 +1957,32 @@ header .header_mobile_menu a {
   background-color: #fff;
   display: flex;
   gap: 1.25rem;
+  height: 30vh;
   border: 2px solid red;
+}
+.lease__card-image-icons {
+  position: relative;
+  height: 100%;
+  width: 42%;
+}
+.lease__card-image {
+  height: 100%;
+}
+.lease__card-image img {
+  width: 100%;
+  height: 100%;
+}
+.lease__card-icon {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  gap: 1rem;
+  color: #fff;
+}
+.lease__card-text {
+  width: 55%;
+  padding: 1.25rem 1rem;
+  border: 2px solid green;
 }
 
 .lease__form {
