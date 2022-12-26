@@ -300,14 +300,26 @@
     height: 30vh;
     border: 2px solid red;
 
+    @include breakpoint-down(small){
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
     &-image-icons{
         position: relative;
         height: 100%;
-        width: 42%;        
+        width: 42%;  
+        
+        @include breakpoint-down(small){
+            width: 100%;
+            height: 15vh;
+        }
     }
 
     &-image{
         height: 100%;
+
         img{
             width: 100%;
             height: 100%;
@@ -326,7 +338,25 @@
     &-text{
         width: 55%;
         padding: 1.25rem 1rem;
-        border: 2px solid green;
+
+        @include breakpoint-down(small){
+            width: 100%;
+        }
+    }
+
+    &-header{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 0.3rem;
+    }
+
+    &-address{
+        font-size: 0.75rem;
+        margin-bottom: 2rem;
+    }
+
+    &-description{
+        font-size: 1rem;
     }
 
 }
@@ -375,6 +405,12 @@
         font-size: 1rem;
         font-weight: 700;
         letter-spacing: 1.2px;
+    }
+}
+
+.property__cards-list{
+    @include breakpoint-down(small){
+        width: 100%;
     }
 }
 

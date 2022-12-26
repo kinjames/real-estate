@@ -1960,10 +1960,23 @@ header .header_mobile_menu a {
   height: 30vh;
   border: 2px solid red;
 }
+@media (max-width: 39.9375em) {
+  .lease__card {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+}
 .lease__card-image-icons {
   position: relative;
   height: 100%;
   width: 42%;
+}
+@media (max-width: 39.9375em) {
+  .lease__card-image-icons {
+    width: 100%;
+    height: 15vh;
+  }
 }
 .lease__card-image {
   height: 100%;
@@ -1982,7 +1995,23 @@ header .header_mobile_menu a {
 .lease__card-text {
   width: 55%;
   padding: 1.25rem 1rem;
-  border: 2px solid green;
+}
+@media (max-width: 39.9375em) {
+  .lease__card-text {
+    width: 100%;
+  }
+}
+.lease__card-header {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.lease__card-address {
+  font-size: 0.75rem;
+  margin-bottom: 2rem;
+}
+.lease__card-description {
+  font-size: 1rem;
 }
 
 .lease__form {
@@ -2034,6 +2063,12 @@ header .header_mobile_menu a {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 1.2px;
+}
+
+@media (max-width: 39.9375em) {
+  .property__cards-list {
+    width: 100%;
+  }
 }
 
 .footer {
