@@ -211,45 +211,45 @@ paginateNumbers.forEach(paginate__numbers =>{
 window.onload = paginate__1();
 window.onload = numOne.classList.add('active-page');
 
-// function blog(){
-//     fetch('./apps/js/blog.json')
-//     .then(response => response.json())
-//     .then(data => {
-//         for (let i = 0; i < data.length; i++) {
+function blog(){
+    fetch('./apps/js/blog.json')
+    .then(response => response.json())
+    .then(data => {
+        for (let i = 0; i < data.length; i++) {
            
-//             subHeading[i].innerHTML = data[i]?.subheading
-//             subImage[i].src = data[i]?.image
-//             subTitle[i].textContent = data[i]?.title
-//         }
-//         subHeading.forEach((e,i)=>{
-//             subHeading[i].textContent = data[i].subheading
-//         })
-//         subImage.forEach((e,i)=>{
-//             subImage[i].src = data[i].image
-//         })
-//         subTitle.forEach((e,i)=>{
-//             subTitle[i].textContent = data[i].title
-//         })
-//         authorName.forEach((e,i)=>{
-//             authorName[i].textContent = data[i].writer
-//         })
-//         dateNum.forEach((e,i)=>{
-//             dateNum[i].textContent = data[i].date
-//         })
-//         para1.forEach((e,i)=>{
-//             para1[i].textContent = data[i].para1
-//         })
-//         para2.forEach((e,i)=>{
-//             para2[i].textContent = data[i].para2
-//         })
-//         para3.forEach((e,i)=>{
-//             para3[i].textContent = data[i].para3
-//         })
-//         para4.forEach((e,i)=>{
-//             para4[i].textContent = data[i].para4
-//         })
-//     })
-// }
+            subHeading[i].innerHTML = data[i]?.subheading
+            subImage[i].src = data[i]?.image
+            subTitle[i].textContent = data[i]?.title
+        }
+        subHeading.forEach((e,i)=>{
+            subHeading[i].textContent = data[i].subheading
+        })
+        subImage.forEach((e,i)=>{
+            subImage[i].src = data[i].image
+        })
+        subTitle.forEach((e,i)=>{
+            subTitle[i].textContent = data[i].title
+        })
+        authorName.forEach((e,i)=>{
+            authorName[i].textContent = data[i].writer
+        })
+        dateNum.forEach((e,i)=>{
+            dateNum[i].textContent = data[i].date
+        })
+        para1.forEach((e,i)=>{
+            para1[i].textContent = data[i].para1
+        })
+        para2.forEach((e,i)=>{
+            para2[i].textContent = data[i].para2
+        })
+        para3.forEach((e,i)=>{
+            para3[i].textContent = data[i].para3
+        })
+        para4.forEach((e,i)=>{
+            para4[i].textContent = data[i].para4
+        })
+    })
+}
 
 link.forEach(link=>{
     link.addEventListener('click', ()=>{
