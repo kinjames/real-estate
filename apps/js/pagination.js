@@ -258,7 +258,7 @@ link.forEach(link=>{
             mainBlogPage.classList.add('hide');
             paginationContainer.classList.add('hide');
             console.log('read more clicked');
-            // blog()
+            blog()
             paginate__1()
             // paginate__2();
             // paginate__3();
