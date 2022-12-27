@@ -44,10 +44,10 @@ function paginate__1() {
         })
 
         for (let i = 0; i < data.length; i++) {
-            // subHeading[i].innerHTML = data[i]?.subheading
-            subHeading.forEach((e,i)=>{
-                subHeading[i].textContent = data[i].subheading
-            })
+            subHeading[i].innerHTML = data[i]?.subheading
+            // subHeading.forEach((e,i)=>{
+            //     subHeading[i].textContent = data[i].subheading
+            // })
             // subImage.forEach((e,i)=>{
             //     subImage[i].src = data[i].image
             // })
