@@ -48,9 +48,9 @@ function paginate__1() {
             // subHeading.forEach((e,i)=>{
             //     subHeading[i].textContent = data[i].subheading
             // })
-            // subImage.forEach((e,i)=>{
-            //     subImage[i].src = data[i].image
-            // })
+            subImage.forEach((e,i)=>{
+                subImage[i].src = data[i].image
+            })
             
         }
 
