@@ -282,9 +282,9 @@ link.forEach(link=>{
 // '<p class="blog__text">' +
 // 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur corrupti voluptatibus provident.' +
 // '</p>'+
-// '</div>'+
-// '<a href="#" class="blog__link flex">' +
-// 'READ MORE &nbsp;' +
+'</div>'+
+'<a href="#" class="blog__link flex">' +
+'READ MORE &nbsp;' +
 '<i class="fas fa-long-arrow-alt-right">'+
 '</i>'+
 '</a>'
