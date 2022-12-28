@@ -260,8 +260,8 @@ link.forEach(link=>{
             console.log('read more clicked');
             blog()
             paginate__1()
-            // paginate__2();
-            // paginate__3();
+            paginate__2();
+            paginate__3();
         }
     })
 })
