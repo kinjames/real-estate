@@ -279,9 +279,9 @@ link.forEach(link=>{
 // '<div class="blog__subheader">' +
 // 'WHATS LENDERS MORTGAGE INSURANCE?'+
 // '</div>'+
-// '<p class="blog__text">' +
-// 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur corrupti voluptatibus provident.' +
-// '</p>'+
+'<p class="blog__text">' +
+'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur corrupti voluptatibus provident.' +
+'</p>'+
 '</div>'+
 '<a href="#" class="blog__link flex">' +
 'READ MORE &nbsp;' +
