@@ -285,7 +285,7 @@ link.forEach(link=>{
 // '</div>'+
 // '<a href="#" class="blog__link flex">' +
 // 'READ MORE &nbsp;' +
-// '<i class="fas fa-long-arrow-alt-right">'+
-// '</i>'+
+'<i class="fas fa-long-arrow-alt-right">'+
+'</i>'+
 '</a>'
 // +'</li>'
