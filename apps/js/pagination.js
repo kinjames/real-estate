@@ -270,10 +270,10 @@ link.forEach(link=>{
 
 
 
-// const listArray = [];
-// let blogCard = '<li class="main__blog-page-card blog__card">'
-// + '<div class="blog__card-image">'+ 
-// '<img src="./images/fam1.jpg" alt="Family photo">' +
+const listArray = [];
+let blogCard = '<li class="main__blog-page-card blog__card">'
++ '<div class="blog__card-image">'+ 
+'<img src="./images/fam1.jpg" alt="Family photo">' +
 '</div>'+ 
 '<div class="blog__texts">' +
 '<div class="blog__subheader">' +
@@ -288,4 +288,4 @@ link.forEach(link=>{
 '<i class="fas fa-long-arrow-alt-right">'+
 '</i>'+
 '</a>'
-// +'</li>'
++'</li>'
