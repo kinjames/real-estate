@@ -1295,7 +1295,7 @@ header .header_mobile_menu a {
   margin-bottom: 1.5rem;
 }
 .blog__link-list .blog__links:hover {
-  text-transform: underline;
+  text-decoration: underline;
 }
 .blog__link-list a {
   font-size: 0.75rem;
