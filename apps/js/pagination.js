@@ -270,22 +270,22 @@ link.forEach(link=>{
 
 
 
-const listArray = [];
-let blogCard = '<li class="main__blog-page-card blog__card">'
-+ '<div class="blog__card-image">'+ 
-'<img src="./images/fam1.jpg" alt="Family photo">' +
-'</div>'+ 
-'<div class="blog__texts">' +
-'<div class="blog__subheader">' +
-'WHATS LENDERS MORTGAGE INSURANCE?'+
-'</div>'+
-'<p class="blog__text">' +
-'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur corrupti voluptatibus provident.' +
-'</p>'+
-'</div>'+
-'<a href="#" class="blog__link flex">' +
-'READ MORE &nbsp;' +
-'<i class="fas fa-long-arrow-alt-right">'+
-'</i>'+
-'</a>'
-+'</li>'
+// const listArray = [];
+// let blogCard = '<li class="main__blog-page-card blog__card">'
+// + '<div class="blog__card-image">'+ 
+// '<img src="./images/fam1.jpg" alt="Family photo">' +
+// '</div>'+ 
+// '<div class="blog__texts">' +
+// '<div class="blog__subheader">' +
+// 'WHATS LENDERS MORTGAGE INSURANCE?'+
+// '</div>'+
+// '<p class="blog__text">' +
+// 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur corrupti voluptatibus provident.' +
+// '</p>'+
+// '</div>'+
+// '<a href="#" class="blog__link flex">' +
+// 'READ MORE &nbsp;' +
+// '<i class="fas fa-long-arrow-alt-right">'+
+// '</i>'+
+// '</a>'
+// +'</li>'

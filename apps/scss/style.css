@@ -1294,6 +1294,9 @@ header .header_mobile_menu a {
   gap: 0.65rem;
   margin-bottom: 1.5rem;
 }
+.blog__link-list .blog__links:hover {
+  text-transform: underline;
+}
 .blog__link-list a {
   font-size: 0.75rem;
   color: rgb(19, 37, 74);
