@@ -43,16 +43,9 @@ function paginate__1() {
             blogHeader[i].textContent = data[i].title
         })
 
-        for (let i = 0; i < data.length; i++) {
-            subHeading[i].innerHTML = data[i]?.subheading
-            // subHeading.forEach((e,i)=>{
-            //     subHeading[i].textContent = data[i].subheading
-            // })
-            subImage.forEach((e,i)=>{
-                subImage[i].src = data[i].image
-            })
-            
-        }
+        subImage.forEach((e,i)=>{
+            subImage[i].src = data[i].image
+        })
 
 
         subTitle.forEach((e,i)=>{
@@ -258,7 +251,7 @@ link.forEach(link=>{
             mainBlogPage.classList.add('hide');
             paginationContainer.classList.add('hide');
             console.log('read more clicked');
-            blog()
+            // blog()
             paginate__1()
             paginate__2();
             paginate__3();
