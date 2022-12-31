@@ -50,17 +50,17 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [Splide.js](https://splidejs.com/) - JS library
-- [Swiper.js](https://splidejs.com/) - JS library
-<!-- - [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles -->
+- [Swiper.js](https://swiperjs.com/) - JS library
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- How to use swiper js to make a carousel on a webpage.
+![Mobile Design](./swipe.png)
+- How to use splide js library to make a thumbnail carousel on a webpage.
+- How to use splide js library to make a thumbnail carousel on a webpage.
 
-To see how you can add code snippets, see below:
+
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
