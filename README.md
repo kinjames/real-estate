@@ -56,6 +56,7 @@ Users should be able to:
 ### What I learned
 
 - How to use swiper js to make a carousel on a webpage.
+
 ![Mobile Design](./swipe.png)
 - How to use splide js library to make a thumbnail carousel on a webpage.
 - How to use splide js library to make a thumbnail carousel on a webpage.
