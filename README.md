@@ -50,8 +50,9 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [Splide.js](https://splidejs.com/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Swiper.js](https://splidejs.com/) - JS library
+<!-- - [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles -->
 
 **Note: These are just examples. Delete this note and replace the list above with your own choices**
 
