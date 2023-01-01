@@ -102,10 +102,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
+- Frontend Mentor - [@kinjames](https://www.frontendmentor.io/profile/kinjames)
+- Twitter - [@TheBlackCoder7](https://twitter.com/TheBlackCoder7)
 
 <!-- This real estate website was built with HTML, CSS and JavaScript.
 What I learnt from making this project is how to use user select.
