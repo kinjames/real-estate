@@ -113,3 +113,10 @@ I learnt how to use meta tags that will prevents telephone numbers color from tu
 i learnt how to create json files and also use the fetch method to fetch the data from the json
 I learnt how to use userinput to filter from an array and also sort
 lastly i learnt how to write a detailed readme file -->
+
+
+<!--  
+  Things to do now,
+  !. add regex to the form on homepage
+  2. add event listeners to the lease section of the homepage
+-->
