@@ -1519,6 +1519,8 @@ header .header_mobile_menu a {
   outline: none;
   cursor: pointer;
   background-color: rgb(19, 37, 74);
+}
+.contact__btn a {
   color: #fff;
 }
 
