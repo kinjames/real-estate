@@ -310,3 +310,11 @@ li {
         width: 100%;
     }
 }
+
+.input__error{
+    border: 2px solid red;
+
+    &::placeholder{
+        color: red;
+    }
+}

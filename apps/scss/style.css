@@ -297,6 +297,19 @@ li {
   }
 }
 
+.input__error {
+  border: 2px solid red;
+}
+.input__error::-moz-placeholder {
+  color: red;
+}
+.input__error:-ms-input-placeholder {
+  color: red;
+}
+.input__error::placeholder {
+  color: red;
+}
+
 header {
   width: 100%;
   height: 80vh;
@@ -1470,7 +1483,7 @@ header .header_mobile_menu a {
   height: 40px;
   padding-inline: 1rem;
   outline: none;
-  border: none;
+  border: 2px solid transparent;
   font-size: inherit;
   color: rgb(19, 37, 74);
 }
@@ -1497,6 +1510,7 @@ header .header_mobile_menu a {
   margin-bottom: 3rem;
   width: 100%;
   color: rgb(19, 37, 74);
+  border: 2px solid transparent;
 }
 .contact__btn {
   width: 150px;
