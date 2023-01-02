@@ -19,6 +19,64 @@ menuBtn.addEventListener('click', ()=>{
 
 })
 
+//Home Form
+const contactForm = document.querySelector('.contact__form');
+const contactName = document.querySelector('.contact__name');
+const contactNumber = document.querySelector('.contact__number');
+const contactTextArea = document.querySelector('.contact__textarea');
+const contactBtn = document.querySelector('.contact__btn');
+let noErrors = true;
+
+function checkName(){
+  let nameRegex = /^[a-z0-9_-]{3,15}$/;
+
+  if (nameRegex.test(contactName.value.trim())){
+    noErrors = true
+  } else{
+    noErrors = false;
+    contactName.style.border = '1px'
+    contactName.style.borderStyle = 'solid'
+    contactName.style.borderColor = 'red'
+  }
+
+}
+function checkNumber(){
+  let numberRegex = /^[(]{0,1}[0-9]{3}[)]{0,1}[-\s\.]{0,1}[0-9]{3}[-\s\.]{0,1}[0-9]{4}$/
+
+  if (numberRegex.test(contactNumber.value.trim())){
+    noErrors = true
+  } else{
+    noErrors = false;
+    contactName.style.border = '1px'
+    contactName.style.borderStyle = 'solid'
+    contactName.style.borderColor = 'red'
+  }
+
+}
+
+function checkRequired(inputArr) {
+  inputArr.forEach(function (input) {
+    if (input.value.trim() === "") {
+      noErrors = false;
+      contactName.style.border = '1px'
+      contactName.style.borderStyle = 'solid'
+      contactName.style.borderColor = 'red'
+    } else {
+      noErrors =true
+    }
+  });
+}
+
+const checkValues = function () {
+  checkName();
+  checkNumber();
+  checkRequired([contactName, contactNumber, contactTextArea]);
+};
+
+contactForm.addEventListener('submit', (e)=>{
+  e.preventDefault();
+    checkValues();
+})
 //Swiper.js
 
 var swiper = new Swiper(".swiper", {

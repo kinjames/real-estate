@@ -8,6 +8,7 @@ header{
     background-repeat: no-repeat;
     color: $deep-blue;
     margin-bottom: 5rem;
+    
 
     @include breakpoint-up(large){
         padding: 2.8rem 6.25rem;
