@@ -39,7 +39,7 @@ function checkName(){
 
 }
 function checkNumber(){
-  let numberRegex = /^[(]{0,1}[0-9]{3}[)]{0,1}[-\s\.]{0,1}[0-9]{3}[-\s\.]{0,1}[0-9]{4}$/
+  let numberRegex = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/
 
   if (numberRegex.test(contactNumber.value.trim())){
     noErrors = true
@@ -67,10 +67,15 @@ const checkValues = function () {
   checkRequired([contactName, contactNumber, contactTextArea]);
 };
 
-// contactForm.addEventListener('submit', (e)=>{
-//   e.preventDefault();
-//     checkValues();
-// })
+contactForm.addEventListener('submit', (e)=>{
+  e.preventDefault();
+    checkValues();
+    contactForm.reset();
+})
+
+
+
+
 
 //Swiper.js
 
