@@ -67,10 +67,11 @@ const checkValues = function () {
   checkRequired([contactName, contactNumber, contactTextArea]);
 };
 
-contactForm.addEventListener('submit', (e)=>{
-  e.preventDefault();
-    checkValues();
-})
+// contactForm.addEventListener('submit', (e)=>{
+//   e.preventDefault();
+//     checkValues();
+// })
+
 //Swiper.js
 
 var swiper = new Swiper(".swiper", {
