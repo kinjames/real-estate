@@ -310,8 +310,8 @@ li {
   color: red;
 }
 
-.icotex {
-  border: 2px solid red;
+.icotex p {
+  font-weight: 700;
 }
 .icotex span {
   font-size: 3rem;
