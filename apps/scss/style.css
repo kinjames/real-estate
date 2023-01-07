@@ -310,6 +310,10 @@ li {
   color: red;
 }
 
+.icotex {
+  border: 2px solid red;
+}
+
 header {
   width: 100%;
   height: 80vh;
@@ -458,7 +462,7 @@ header .header__icon-text {
   }
 }
 header .header__icon {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 @media (max-width: 63.9375em) {
   header .header__icon {

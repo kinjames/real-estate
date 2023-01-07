@@ -46,6 +46,7 @@ function checkNumber(){
   } else{
     noErrors = false;
     contactNumber.classList.add('input__error');
+    
   }
 
 }
