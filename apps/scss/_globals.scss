@@ -321,7 +321,9 @@ li {
 
 .icotex{
     border: 2px solid red;
-    // flex-direction: column;
-    // gap: 1.5rem;
-    // justify-content: center;
+
+    span{
+        font-size: 3rem;
+        font-weight: 700;
+    }
 }

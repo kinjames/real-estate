@@ -313,6 +313,10 @@ li {
 .icotex {
   border: 2px solid red;
 }
+.icotex span {
+  font-size: 3rem;
+  font-weight: 700;
+}
 
 header {
   width: 100%;
