@@ -261,6 +261,19 @@ li {
    border: 1px solid $deep-blue;
 }
 
+.pag{
+    background-color: #fff;
+    width: 280px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+   margin: 4rem auto 2rem;
+   cursor: pointer;
+   border: 1px solid $deep-blue;
+}
+
 .paginate__numbers{
     font-size: 0.875rem;
     display: flex;

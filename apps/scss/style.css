@@ -246,6 +246,19 @@ li {
   border: 1px solid rgb(19, 37, 74);
 }
 
+.pag {
+  background-color: #fff;
+  width: 280px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 4rem auto 2rem;
+  cursor: pointer;
+  border: 1px solid rgb(19, 37, 74);
+}
+
 .paginate__numbers {
   font-size: 0.875rem;
   display: flex;
