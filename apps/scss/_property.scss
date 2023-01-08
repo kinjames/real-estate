@@ -306,6 +306,12 @@
     gap: 1.25rem;
     height: 30vh;
     border: 6px solid #fff;
+    margin-bottom: 1rem;
+    cursor: pointer;
+
+    &:hover{
+        box-shadow: 0 4px 8px rgba(0,0,0,.3);;
+    }
 
     @include breakpoint-down(medium){
         height: 25vh;
@@ -424,8 +430,5 @@
     }
 }
 
-.property__cards-list{
 
-
-}
 

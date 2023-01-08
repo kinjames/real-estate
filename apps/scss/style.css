@@ -1989,6 +1989,11 @@ header .header_mobile_menu a {
   gap: 1.25rem;
   height: 30vh;
   border: 6px solid #fff;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.lease__card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 @media (max-width: 63.9375em) {
   .lease__card {
