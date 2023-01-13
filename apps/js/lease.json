@@ -28,7 +28,254 @@
             "state": "State name",
             "country": "Austrailia"
         },
-        "features": ["Air Conditioning","Barbecue", "Dryer","Microwave", "Outdoor Shower", "Refrigerator", "TV Cable", "Washer", "WiFi"],
-        "map": ""
+        "features": ["Air Conditioning","Barbecue", "Dryer","Microwave", "Outdoor Shower", "Refrigerator", "TV Cable", "Washer", "WiFi"]
+    },
+    {
+        "id": 2,
+        "header": "36/285-291 BLAXLAND ROAD RYE",
+        "price": "$400 / WEEK",
+        "date": "1st February 2023",
+        "icons": {
+            "bed": 4,
+            "shower": 2,
+            "storey": 1
+        },
+        "images": {
+            "bedroom": "./images/bed2.jpg",
+            "livingroom": "./images/living2.jpg",
+            "kitchen": "./images/kitchen2.jpg",
+            "dinning": "./images/dinning2.jpg",
+            "bathroom": "./images/bath2.jpg"
+        },
+        "description": {
+            "para1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.",
+            "para2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto."
+        },
+        "location": {
+            "address": "601/2 Half Street",
+            "zip": 23826,
+            "city": "City Name",
+            "area": "601/2 Half Street",
+            "state": "State name",
+            "country": "Austrailia"
+        },
+        "features": ["Air Conditioning","Barbecue", "Dryer","Microwave", "Outdoor Shower", "Refrigerator", "TV Cable", "Washer", "WiFi"]
+    },
+    {
+        "id": 3,
+        "header": "32/305-101 BLAXLAND ROAD RYE",
+        "price": "$300 / WEEK",
+        "date": "1st March 2023",
+        "icons": {
+            "bed": 3,
+            "shower": 3,
+            "storey": 2
+        },
+        "images": {
+            "bedroom": "./images/bed3.jpg",
+            "livingroom": "./images/living3.jpg",
+            "kitchen": "./images/kitchen3.jpg",
+            "dinning": "./images/dinning3.jpg",
+            "bathroom": "./images/bath3.jpg"
+        },
+        "description": {
+            "para1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.",
+            "para2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto."
+        },
+        "location": {
+            "address": "402/2 Half Street",
+            "zip": 27221,
+            "city": "City Name",
+            "area": "402/2 Half Street",
+            "state": "State name",
+            "country": "Austrailia"
+        },
+        "features": ["Air Conditioning","Barbecue", "Dryer","Microwave", "Outdoor Shower", "Refrigerator", "TV Cable", "Washer", "WiFi"]
+    },
+    {
+        "id": 4,
+        "header": "23/305-701 BLAXLAND ROAD RYE",
+        "price": "$300 / WEEK",
+        "date": "1st April 2023",
+        "icons": {
+            "bed": 2,
+            "shower": 1,
+            "storey": 1
+        },
+        "images": {
+            "bedroom": "./images/bed4.jpg",
+            "livingroom": "./images/living4.jpg",
+            "kitchen": "./images/kitchen4.jpg",
+            "dinning": "./images/dinning4.jpg",
+            "bathroom": "./images/bath4.jpg"
+        },
+        "description": {
+            "para1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.",
+            "para2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto."
+        },
+        "location": {
+            "address": "701/6 Half Street",
+            "zip": 39728,
+            "city": "City Name",
+            "area": "701/6 Half Street",
+            "state": "State name",
+            "country": "Austrailia"
+        },
+        "features": ["Air Conditioning","Barbecue", "Dryer","Microwave", "Outdoor Shower", "Refrigerator", "TV Cable", "Washer", "WiFi"]
+    },
+    {
+        "id": 5,
+        "header": "43/605-301 BLAXLAND ROAD RYE",
+        "price": "$600 / WEEK",
+        "date": "1st April 2023",
+        "icons": {
+            "bed": 4,
+            "shower": 4,
+            "storey": 2
+        },
+        "images": {
+            "bedroom": "./images/bed5.jpg",
+            "livingroom": "./images/living5.jpg",
+            "kitchen": "./images/kitchen5.jpg",
+            "dinning": "./images/dinning5.jpg",
+            "bathroom": "./images/bath5.jpg"
+        },
+        "description": {
+            "para1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.",
+            "para2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto."
+        },
+        "location": {
+            "address": "302/9 Half Street",
+            "zip": 389216,
+            "city": "City Name",
+            "area": "302/9 Half Street",
+            "state": "State name",
+            "country": "Austrailia"
+        },
+        "features": ["Air Conditioning","Barbecue", "Dryer","Microwave", "Outdoor Shower", "Refrigerator", "TV Cable", "Washer", "WiFi"]
+    },
+    {
+        "id": 6,
+        "header": "13/605-301 BLAXLAND ROAD RYE",
+        "price": "$200 / WEEK",
+        "date": "1st April 2023",
+        "icons": {
+            "bed": 4,
+            "shower": 1,
+            "storey": 1
+        },
+        "images": {
+            "bedroom": "./images/bed6.jpg",
+            "livingroom": "./images/living6.jpg",
+            "kitchen": "./images/kitchen6.jpg",
+            "dinning": "./images/dinning6.jpg",
+            "bathroom": "./images/bath6.jpg"
+        },
+        "description": {
+            "para1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.",
+            "para2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto."
+        },
+        "location": {
+            "address": "201/8 Half Street",
+            "zip": 23171,
+            "city": "City Name",
+            "area": "201/8 Half Street",
+            "state": "State name",
+            "country": "Austrailia"
+        },
+        "features": ["Air Conditioning","Barbecue", "Dryer","Microwave", "Outdoor Shower", "Refrigerator", "TV Cable", "Washer", "WiFi"]
+    },
+    {
+        "id": 7,
+        "header": "13/705-301 BLAXLAND ROAD RYE",
+        "price": "$350 / WEEK",
+        "date": "15th April 2023",
+        "icons": {
+            "bed": 4,
+            "shower": 2,
+            "storey": 1
+        },
+        "images": {
+            "bedroom": "./images/bed7.jpg",
+            "livingroom": "./images/living7.jpg",
+            "kitchen": "./images/kitchen7.jpg",
+            "dinning": "./images/dinning7.jpg",
+            "bathroom": "./images/bath7.jpg"
+        },
+        "description": {
+            "para1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.",
+            "para2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto."
+        },
+        "location": {
+            "address": "405/7 Half Street",
+            "zip": 22271,
+            "city": "City Name",
+            "area": "405/7 Half Street",
+            "state": "State name",
+            "country": "Austrailia"
+        },
+        "features": ["Air Conditioning","Barbecue", "Dryer","Microwave", "Outdoor Shower", "Refrigerator", "TV Cable", "Washer", "WiFi"]
+    },
+    {
+        "id": 8,
+        "header": "13/805-301 BLAXLAND ROAD RYE",
+        "price": "$450 / WEEK",
+        "date": "15th April 2023",
+        "icons": {
+            "bed": 4,
+            "shower": 3,
+            "storey": 2
+        },
+        "images": {
+            "bedroom": "./images/bed8.jpg",
+            "livingroom": "./images/living8.jpg",
+            "kitchen": "./images/kitchen8.jpg",
+            "dinning": "./images/dinning8.jpg",
+            "bathroom": "./images/bath8.jpg"
+        },
+        "description": {
+            "para1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.",
+            "para2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto."
+        },
+        "location": {
+            "address": "405/8 Half Street",
+            "zip": 22281,
+            "city": "City Name",
+            "area": "405/8 Half Street",
+            "state": "State name",
+            "country": "Austrailia"
+        },
+        "features": ["Air Conditioning","Barbecue", "Dryer","Microwave", "Outdoor Shower", "Refrigerator", "TV Cable", "Washer", "WiFi"]
+    },
+    {
+        "id": 9,
+        "header": "13/905-301 BLAXLAND ROAD RYE",
+        "price": "$500 / WEEK",
+        "date": "15th April 2023",
+        "icons": {
+            "bed": 4,
+            "shower": 4,
+            "storey": 2
+        },
+        "images": {
+            "bedroom": "./images/bed9.jpg",
+            "livingroom": "./images/living9.jpg",
+            "kitchen": "./images/kitchen9.jpg",
+            "dinning": "./images/dinning9.jpg",
+            "bathroom": "./images/bath9.jpg"
+        },
+        "description": {
+            "para1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.",
+            "para2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto."
+        },
+        "location": {
+            "address": "405/9 Half Street",
+            "zip": 22291,
+            "city": "City Name",
+            "area": "405/9 Half Street",
+            "state": "State name",
+            "country": "Austrailia"
+        },
+        "features": ["Air Conditioning","Barbecue", "Dryer","Microwave", "Outdoor Shower", "Refrigerator", "TV Cable", "Washer", "WiFi"]
     }
 ]
