@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favico/favicon-16x16.png">
+    <link rel="manifest" href="./favico/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">  
+    <link rel="stylesheet" href="./apps/scss/style.css">
+    <title>Real Estate</title>
+</head>
+
+<body>
+    <header class="headers-1">
+        <nav class="nav flex flex-jc-sb flex-ai-c">
+            <div class="nav__logo">
+                <a href="home.html"><img src="./images/logo3.png" alt="Logo"></a>
+            </div>
+            <a href="#" id="menuBtn" class="header_menu hide-for-desktop header_menu-1">
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            <div class="nav__items flex hide-for-mobile flex-ai-c">
+                <a href="home.html" class="nav__links nav__link-1">Home</a>
+                <a href="about.html" class="nav__links nav__link-1">About</a>
+                <a href="blogpost.html" class="nav__links nav__link-1">Blog</a>
+                <a href="property.html" class="nav__links nav__link-1">For Lease</a>
+                <a href="contact.html" class="nav__links nav__link-1">Contact</a>
+            </div>
+        </nav>
+        <div class="header_mobile_menu has-fade hide-for-desktop hide">
+            <a href="home.html" class="nav__links nav__link-1">Home</a>
+            <a href="about.html" class="nav__links nav__link-1">About</a>
+            <a href="blogpost.html" class="nav__links nav__link-1">Blog</a>
+            <a href="property.html" class="nav__links nav__link-1">For Lease</a>
+            <a href="contact.html" class="nav__links nav__link-1">Contact</a>
+        </div>
+        <h2>PROPERTY DETAILS</h2>
+        <p class="small__text">Home | Listings</p>
+    </header>
+
+    <div class="property__container flex">
+        <div class="property__details">
+            <h2 class="property__details-header">
+                35/275-281 BLAXLAND ROAD RYE
+            </h2>
+            <h4>&dollar;400 / WEEK</h4>
+            <p class="property__details-small-text">
+                Availabile from <span class="date">1st January 2023</span>
+            </p>
+            <div class="property__details-icons flex">
+                <div class="property__details-icon flex flex-ai-c">
+                    <i class="fas fa-bed"></i>
+                    <span class="bed">2</span>
+                </div>
+                <div class="property__details-icon flex flex-ai-c">
+                    <i class="fas fa-bath"></i>
+                    <span class="bath">2</span>
+                </div>
+                <div class="property__details-icon flex flex-ai-c">
+                    <i class="fas fa-car"></i>
+                    <span class="garage">1</span>
+                </div>
+            </div>
+            <section
+                id="main-carousel"
+                class="splide main-splide"
+                aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel."
+                >
+                <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <img src="./images/bed1.jpg" alt="Bedroom">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./images/living1.jpg" alt="Living Room">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./images/kitchen1.jpg" alt="Kitchen">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./images/dinning1.jpg" alt="Dinning Room">
+                            </li>
+                            <li class="splide__slide">
+                                <img src="./images/bath1.jpg" alt="Bathroom">
+                            </li>
+                        </ul>
+                </div>
+            </section>
+            <section
+                id="thumbnail-carousel"
+                class="splide thumbnail-splide"
+                aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel."
+                >
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="./images/bed1.jpg" alt="Bedroom">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/living1.jpg" alt="Living Room">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/kitchen1.jpg" alt="Kitchen">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/dinning1.jpg" alt="Dinning Room">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="./images/bath1.jpg" alt="Bathroom">
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <div class="property__description">
+                <p class="property__bold-text">
+                    BRAND NEW APARTMENT WITH WATER GLIMPSE
+                </p>
+                <div class="property__line">
+
+                </div>
+                <p class="property__description-small-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.
+                </p>
+                <p class="property__description-small-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.
+                </p>
+            </div>
+
+            <div class="property__location">
+                <div class="location-map flex flex-jc-sb flex-ai-c">
+                    <p class="property__bold-text unset">
+                        LOCATION
+                    </p>
+                    <a href="#map" class="location-map-link flex flex-ai-c flex-jc-c">View on Google Maps</a>
+                </div>
+                <div class="property__line"></div>
+                <div class="property__location-details">
+                    <div class="div1 flex flex-jc-sb div__1"> 
+                        <span class="small-bold-text">Address:</span>
+                        <span class="small-light-text">605/3 Half Street</span>
+                    </div>
+                    <div class="div2 flex flex-jc-sb div__1"> 
+                        <span class="small-bold-text">ZIP:</span>
+                        <span class="small-light-text">12345</span>
+                    </div>
+                    <div class="div3 flex flex-jc-sb div__1"> 
+                        <span class="small-bold-text">City:</span>
+                        <span class="small-light-text">City Name</span>
+                    </div>
+                    <div class="div4 flex flex-jc-sb div__1"> 
+                        <span class="small-bold-text">Area:</span>
+                        <span class="small-light-text">605/3 Half Street</span>
+                    </div>
+                    <div class="div5 flex flex-jc-sb div__1"> 
+                        <span class="small-bold-text">State:</span>
+                        <span class="small-light-text">State Name</span>
+                    </div>
+                    <div class="div6 flex flex-jc-sb div__1"> 
+                        <span class="small-bold-text">Country:</span>
+                        <span class="small-light-text">Australia</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property__features">
+                <p class="property__bold-text">
+                    FEATURES
+                </p>
+                <div class="property__line"></div>
+                <div class="property__features-details">
+                    <div class="property__features-details-1 tick-icon flex flex-ai-c"> 
+                        <i class="fas fa-check flex flex-jc-c flex-ai-c"></i>
+                        <span class="small-light-text">Air Conditioning</span>
+                    </div>
+                    <div class="property__features-details-2 tick-icon flex flex-ai-c"> 
+                        <i class="fas fa-check flex flex-jc-c flex-ai-c"></i>
+                        <span class="small-light-text">Barbecue</span>
+                    </div>
+                    <div class="property__features-details-3 tick-icon flex flex-ai-c"> 
+                        <i class="fas fa-check flex flex-jc-c flex-ai-c"></i>
+                        <span class="small-light-text">Dryer</span>
+                    </div>
+                    <div class="property__features-details-4 tick-icon flex flex-ai-c"> 
+                        <i class="fas fa-check flex flex-jc-c flex-ai-c"></i>
+                        <span class="small-light-text">Microwave</span>
+                    </div>
+                    <div class="property__features-details-5 tick-icon flex flex-ai-c"> 
+                        <i class="fas fa-check flex flex-jc-c flex-ai-c"></i>
+                        <span class="small-light-text">Outdoor Shower</span>
+                    </div>
+                    <div class="property__features-details-6 tick-icon flex flex-ai-c"> 
+                        <i class="fas fa-check flex flex-jc-c flex-ai-c"></i>
+                        <span class="small-light-text">Refrigerator</span>
+                    </div>
+                    <div class="property__features-details-7 tick-icon flex flex-ai-c"> 
+                        <i class="fas fa-check flex flex-jc-c flex-ai-c"></i>
+                        <span class="small-light-text">TV Cable</span>
+                    </div>
+                    <div class="property__features-details-8 tick-icon flex flex-ai-c"> 
+                        <i class="fas fa-check flex flex-jc-c flex-ai-c"></i>
+                        <span class="small-light-text">Washer</span>
+                    </div>
+                    <div class="property__features-details-9 tick-icon flex flex-ai-c"> 
+                        <i class="fas fa-check flex flex-jc-c flex-ai-c"></i>
+                        <span class="small-light-text">WiFi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property__actual-map" id="map">
+                <p class="property__bold-text">
+                    MAP
+                </p>
+                <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=720&amp;height=347&amp;hl=en&amp;q=sydney&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://piratebay-proxys.com/">Piratebay</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:347px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:347px;}.gmap_iframe {height:347px!important;}</style></div>
+            </div>
+        </div>
+        <div class="property__contact-agent">
+            <p class="property__bold-text change">
+                CONTACT AGENT
+            </p>
+            <p class="small-light-text">Enquire about <span class="apart-name">35/275-281 Blaxland Road Ryde</span></p>
+            <form action="" class="property__contact-agent-form">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Email Address">
+                <input type="text" placeholder="Phone Number">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Enquiry"></textarea>
+                <button type="submit">SEND ENQUIRY</button>
+            </form>
+        </div>
+        
+    </div>
+
+    <footer class="footer flex flex-jc-c">
+        <div class="footer__container">
+            <div class="footer__logo__about flex">
+                <div class="footer__logo">
+                    <a href="home.html"><img src="./images/logo3.png" alt="Logo"></a>
+                </div>
+                <p class="footer__about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolor sint sit. Tempora a delectus mollitia,Lorem ipsum dolor sit ametLorem ipsum dolor sit amet</p>
+            </div>
+            <div class="footer__links flex">
+                <p class="footer__links-header">
+                    QUICK MENU
+                </p>
+                <div class="footer__links-link flex">
+                    <a href="home.html" class="">Home</a>
+                    <a href="about.html" class="">About</a>
+                    <a href="blogpost.html" class="">Blog</a>
+                    <a href="property.html" class="">For Lease</a>
+                    <a href="contact.html" class="">Contact</a>
+                </div>
+            </div>
+            <div class="footer__contact">
+                <p class="footer__contact-text">
+                    CONTACT
+                </p>
+                <div class="footer__contact-list">
+                    <p>Exclusive Property Group Pty Ltd</p>
+                    <p>P.O.BOX 330 Freesville 2007</p>
+                    <p>Phone: (03) 9183 7456</p>
+                    <p>Fax: (03) 9183 7456</p>
+                    <p>ABN: (03) 9183 7456</p>
+                </div>
+
+            </div>
+            <p class="footer__copyright">
+                Copyright &copy; 2022 - All Rights Reserved | Privacy Policy | Terms and Conditions | J.K Myers
+            </p>
+            <div class="footer__socials flex">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./apps/js/lease.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"></script>
+    <script src="./apps/js/splide.js"></script>
+    <script src="./apps/js/script.js"></script>
+</body>

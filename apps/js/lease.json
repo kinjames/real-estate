@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "header": "35/275-281 BLAXLAND ROAD RYE",
+        "price": "$400 / WEEK",
+        "date": "1st February 2023",
+        "icons": {
+            "bed": 1,
+            "shower": 3,
+            "storey": 2
+        },
+        "images": {
+            "bedroom": "./images/bed1.jpg",
+            "livingroom": "./images/living1.jpg",
+            "kitchen": "./images/kitchen1.jpg",
+            "dinning": "./images/dinning1.jpg",
+            "bathroom": "./images/bath1.jpg"
+        },
+        "description": {
+            "para1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto.",
+            "para2": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore deserunt totam, natus numquam repudiandae minus voluptates voluptate cum incidunt blanditiis quaerat officiis assumenda rerum nam, sint consectetur, quisquam architecto."
+        },
+        "location": {
+            "address": "605/3 Half Street",
+            "zip": 12345,
+            "city": "City Name",
+            "area": "605/3 Half Street",
+            "state": "State name",
+            "country": "Austrailia"
+        },
+        "features": ["Air Conditioning","Barbecue", "Dryer","Microwave", "Outdoor Shower", "Refrigerator", "TV Cable", "Washer", "WiFi"],
+        "map": ""
+    }
+]

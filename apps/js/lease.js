@@ -1,5 +1,3 @@
-
-
 let leaseCard = document.querySelectorAll('.lease__card');
 let cardList = document.querySelector('.property__cards-list');
 

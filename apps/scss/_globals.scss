@@ -342,3 +342,13 @@ li {
         font-weight: 700;
     }
 }
+
+.swiper__btn-2{
+    a{
+        color: $deep-blue;
+
+        &:hover{
+            color: #fff;
+        }
+    }
+}
