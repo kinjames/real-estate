@@ -1,13 +1,14 @@
 [
     {
         "id": 1,
+        "place": "SOUTH SYDNEY",
         "header": "35/275-281 BLAXLAND ROAD RYE",
         "price": "$400 / WEEK",
         "date": "1st February 2023",
         "icons": {
             "bed": 1,
             "shower": 3,
-            "storey": 2
+            "storey": 1
         },
         "images": {
             "bedroom": "./images/bed1.jpg",
@@ -32,13 +33,14 @@
     },
     {
         "id": 2,
+        "place": "WEST SYDNEY",
         "header": "36/285-291 BLAXLAND ROAD RYE",
-        "price": "$400 / WEEK",
+        "price": "$450 / WEEK",
         "date": "1st February 2023",
         "icons": {
             "bed": 4,
             "shower": 2,
-            "storey": 1
+            "storey": 2
         },
         "images": {
             "bedroom": "./images/bed2.jpg",
@@ -63,8 +65,9 @@
     },
     {
         "id": 3,
+        "place": "EAST SYDNEY",
         "header": "32/305-101 BLAXLAND ROAD RYE",
-        "price": "$300 / WEEK",
+        "price": "$500 / WEEK",
         "date": "1st March 2023",
         "icons": {
             "bed": 3,
@@ -94,6 +97,7 @@
     },
     {
         "id": 4,
+        "place": "NORTH SYDNEY",
         "header": "23/305-701 BLAXLAND ROAD RYE",
         "price": "$300 / WEEK",
         "date": "1st April 2023",
@@ -125,6 +129,7 @@
     },
     {
         "id": 5,
+        "place": "SOUTH SYDNEY",
         "header": "43/605-301 BLAXLAND ROAD RYE",
         "price": "$600 / WEEK",
         "date": "1st April 2023",
@@ -156,8 +161,9 @@
     },
     {
         "id": 6,
+        "place": "WEST SYDNEY",
         "header": "13/605-301 BLAXLAND ROAD RYE",
-        "price": "$200 / WEEK",
+        "price": "$250 / WEEK",
         "date": "1st April 2023",
         "icons": {
             "bed": 4,
@@ -187,13 +193,14 @@
     },
     {
         "id": 7,
+        "place": "SOUTH SYDNEY",
         "header": "13/705-301 BLAXLAND ROAD RYE",
-        "price": "$350 / WEEK",
+        "price": "$550 / WEEK",
         "date": "15th April 2023",
         "icons": {
             "bed": 4,
             "shower": 2,
-            "storey": 1
+            "storey": 2
         },
         "images": {
             "bedroom": "./images/bed7.jpg",
@@ -218,6 +225,7 @@
     },
     {
         "id": 8,
+        "place": "NORTH SYDNEY",
         "header": "13/805-301 BLAXLAND ROAD RYE",
         "price": "$450 / WEEK",
         "date": "15th April 2023",
@@ -249,6 +257,7 @@
     },
     {
         "id": 9,
+        "place": "EAST SYDNEY",
         "header": "13/905-301 BLAXLAND ROAD RYE",
         "price": "$500 / WEEK",
         "date": "15th April 2023",
