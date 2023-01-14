@@ -43,9 +43,13 @@ function images(a){
     .then(response => response.json())
     .then(data =>{
         date.innerHTML = data[a].date
-        console.log(data[a].date)
+        // kitchen.forEach((i,e)=>{
+        //     kitchen[i].src = data[a].images.kitchen
+        // })
     })
 }
+
+images(0);
 
 
 
@@ -54,8 +58,7 @@ swiperBtn.forEach(btn =>{
         const styles = e.currentTarget.classList;
 
         if(styles.contains('2')){
-            console.log("clicked")
-            images(0);
+
         }
         
     })
