@@ -268,15 +268,15 @@ const totalItems = 100;
 const totalPages = Math.ceil(totalItems / itemsPerPage);
 
 // Initialize the current page
-let currentPage = 1;
+let current_Page = 1;
 
 // Function to handle pagination
 function paginate(pageNumber) {
   // Update the current page
-  currentPage = pageNumber;
+  current_Page = pageNumber;
 
   // Get the start and end index of the items to be displayed
-  const startIndex = (currentPage - 1) * itemsPerPage;
+  const startIndex = (current_Page - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
 
   // Get the items to be displayed
