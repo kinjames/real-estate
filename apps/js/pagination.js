@@ -258,6 +258,42 @@ link.forEach(link=>{
     })
 })
 
+// Set the number of items to be displayed per page
+const itemsPerPage = 10;
+
+// Get the total number of items
+const totalItems = 100;
+
+// Calculate the total number of pages
+const totalPages = Math.ceil(totalItems / itemsPerPage);
+
+// Initialize the current page
+let currentPage = 1;
+
+// Function to handle pagination
+function paginate(pageNumber) {
+  // Update the current page
+  currentPage = pageNumber;
+
+  // Get the start and end index of the items to be displayed
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+
+  // Get the items to be displayed
+  const itemsToDisplay = yourArray.slice(startIndex, endIndex);
+
+  // Display the items
+  displayItems(itemsToDisplay);
+}
+
+// Display the pagination buttons
+for (let i = 1; i <= totalPages; i++) {
+  const button = document.createElement("button");
+  button.innerText = i;
+  button.addEventListener("click", () => paginate(i));
+  document.body.appendChild(button);
+}
+
 
 
 
