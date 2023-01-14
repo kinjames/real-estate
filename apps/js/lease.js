@@ -38,14 +38,13 @@ fetch('./apps/js/lease.json')
 
 
 
+    let a;
+
 function images(a){
     fetch('./apps/js/lease.json')
     .then(response => response.json())
     .then(data =>{
-        date.innerHTML = data[a].date
-        // kitchen.forEach((i,e)=>{
-        //     kitchen[i].src = data[a].images.kitchen
-        // })
+        
     })
 }
 
