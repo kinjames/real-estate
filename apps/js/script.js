@@ -28,7 +28,7 @@ const contactBtn = document.querySelector('.contact__btn');
 let noErrors = true;
 
 function checkName(){
-  let nameRegex = /^[a-z0-9_-]{3,15}$/;
+  let nameRegex = /^[A-Za-z]+(([',. -][A-Za-z ])?[A-Za-z]*)*$/;
 
   if (nameRegex.test(contactName.value.trim())){
     noErrors = true
