@@ -20,20 +20,48 @@ let livingroom = document.querySelectorAll('.livingroom');
 let kitchen = document.querySelectorAll('.kitchen');
 let dinning = document.querySelectorAll('.dinning');
 let bathroom = document.querySelectorAll('.bathroom');
+let property__details__header = document.querySelector('.property__details-header');
 
-swiperBtn.forEach(btn =>{
-    btn.addEventListener('click',()=>{
-        images()
-    })
-});
 
-function images(i){
+fetch('./apps/js/lease.json')
+    .then(response => response.json())
+    .then(data =>{
+        for(i = 0; i<data.length; i++){
+            swiperText[i].innerHTML = data[i].header;
+            swiperHeader[i].innerHTML = data[i].place;
+            bed[i].innerHTML = data[i].icons.bed;
+            bath[i].innerHTML = data[i].icons.shower;
+            storey[i].innerHTML = data[i].icons.storey;
+            amount[i].innerHTML = data[i].price;
+        }
+    });
+
+
+
+function images(a){
     fetch('./apps/js/lease.json')
     .then(response => response.json())
     .then(data =>{
-        
+        date.innerHTML = data[a].date
+        console.log(data[a].date)
     })
 }
+
+
+
+swiperBtn.forEach(btn =>{   
+    btn.addEventListener('click',(e)=>{
+        const styles = e.currentTarget.classList;
+
+        if(styles.contains('2')){
+            console.log("clicked")
+            images(0);
+        }
+        
+    })
+});
+
+
 
 
 
@@ -51,18 +79,7 @@ function mainPage(){
         }
     });
 }
-fetch('./apps/js/lease.json')
-    .then(response => response.json())
-    .then(data =>{
-        for(i = 0; i<data.length; i++){
-            swiperText[i].innerHTML = data[i].header;
-            swiperHeader[i].innerHTML = data[i].place;
-            bed[i].innerHTML = data[i].icons.bed;
-            bath[i].innerHTML = data[i].icons.shower;
-            storey[i].innerHTML = data[i].icons.storey;
-            amount[i].innerHTML = data[i].price;
-        }
-    });
+
 
 
 
