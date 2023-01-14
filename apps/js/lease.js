@@ -13,22 +13,25 @@ let bigImage = document.querySelectorAll('.big-image');
 let date = document.querySelector('.date');
 
 
+// main variables
+
+let bedroom = document.querySelectorAll('.bedroom');
+let livingroom = document.querySelectorAll('.livingroom');
+let kitchen = document.querySelectorAll('.kitchen');
+let dinning = document.querySelectorAll('.dinning');
+let bathroom = document.querySelectorAll('.bathroom');
+
 swiperBtn.forEach(btn =>{
     btn.addEventListener('click',()=>{
         images()
     })
 });
 
-function images(){
+function images(i){
     fetch('./apps/js/lease.json')
     .then(response => response.json())
     .then(data =>{
-        for(i = 0; i<data.length; i++){
-            for (let j = 0; j < 5; j++) {
-                    bigImage[j].src = data[i].images[j];
-                    date[i].innerHTML = data[i].date
-            }
-        }
+        
     })
 }
 
