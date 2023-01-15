@@ -38,17 +38,14 @@ fetch('./apps/js/lease.json')
 
 
 
-    let a;
-
 function images(a){
     fetch('./apps/js/lease.json')
     .then(response => response.json())
     .then(data =>{
         
-    })
+    });
 }
 
-images(0);
 
 
 
@@ -57,11 +54,12 @@ swiperBtn.forEach(btn =>{
         const styles = e.currentTarget.classList;
 
         if(styles.contains('2')){
-
+            a = 1
         }
         
     })
 });
+
 
 
 
