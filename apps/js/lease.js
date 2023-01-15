@@ -42,23 +42,35 @@ function images(a){
     fetch('./apps/js/lease.json')
     .then(response => response.json())
     .then(data =>{
-        
+        if(swiperBtn.classlist.contains(1)){
+            
+        }
+
     });
 }
 
 
 
 
-swiperBtn.forEach(btn =>{   
-    btn.addEventListener('click',(e)=>{
-        const styles = e.currentTarget.classList;
-
-        if(styles.contains('2')){
-            a = 1
-        }
+function mainData(){
+    swiperBtn.forEach(btn =>{   
+        btn.addEventListener('click',()=>{
+            fetch('./apps/js/lease.json')
+            .then(response => response.json())
+            .then(data =>{
+                if(swiperBtn.classlist.contains(2)){
+                    date.innerHTML = data[0].date
+                }
         
-    })
-});
+            });
+
+    
+            
+        })
+    });
+}
+
+mainData()
 
 
 
