@@ -71,6 +71,8 @@ Users should be able to:
 
 ### Continued development
 
+I would like to continue using the javascript libraries to add more functionalities to my websites.
+
 <!-- Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect. -->
 
 
