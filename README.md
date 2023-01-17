@@ -103,3 +103,5 @@ lastly i learnt how to write a detailed readme file -->
   2. add event listeners to the lease section of the homepage
   3. add event listeners to the blog sectio of the home page and work on the arrow pointing downwards
 -->
+
+<!-- Next things to look at Node.js -->
