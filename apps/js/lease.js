@@ -11,6 +11,7 @@ let swiperBtn = document.querySelectorAll('.swiper__btn-2');
 let amount = document.querySelectorAll('.swiper__btn-1');
 let bigImage = document.querySelectorAll('.big-image');
 let date = document.querySelector('.date');
+let link = document.querySelectorAll('.lin')
 
 
 // main variables
@@ -42,35 +43,27 @@ function images(a){
     fetch('./apps/js/lease.json')
     .then(response => response.json())
     .then(data =>{
-        if(swiperBtn.classlist.contains(1)){
-            
-        }
-
+      return  date.innerHTML = data[0].date
     });
 }
 
 
 
 
-function mainData(){
-    swiperBtn.forEach(btn =>{   
+    link.forEach(btn =>{   
         btn.addEventListener('click',()=>{
-            fetch('./apps/js/lease.json')
-            .then(response => response.json())
-            .then(data =>{
-                if(swiperBtn.classlist.contains(2)){
-                    date.innerHTML = data[0].date
-                }
-        
-            });
+
+            const styles = e.currentTarget.classList;
+            if (styles.conatins('2')){
+                images(0);
+                console.log('it contains 2')
+            }
 
     
             
         })
     });
-}
 
-mainData()
 
 
 
