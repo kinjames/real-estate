@@ -11,7 +11,7 @@ let swiperBtn = document.querySelectorAll('.swiper__btn-2');
 let amount = document.querySelectorAll('.swiper__btn-1');
 let bigImage = document.querySelectorAll('.big-image');
 let date = document.querySelector('.date');
-let link = document.querySelectorAll('.lin')
+let links = document.querySelectorAll('.lin')
 
 
 // main variables
@@ -21,7 +21,7 @@ let livingroom = document.querySelectorAll('.livingroom');
 let kitchen = document.querySelectorAll('.kitchen');
 let dinning = document.querySelectorAll('.dinning');
 let bathroom = document.querySelectorAll('.bathroom');
-let property__details__header = document.querySelector('.property__details-header');
+let property__details__header = document.querySelectorAll('.property__details-header');
 
 
 fetch('./apps/js/lease.json')
@@ -49,17 +49,16 @@ function details() {
 }
 
 
-    link.forEach(btn =>{   
+    links.forEach(btn =>{   
         btn.addEventListener('click',()=>{
+            fetch('./apps/js/lease.json')
+            .then(response => response.json())
+            .then(data =>{
+                
+            })
 
             const styles = e.currentTarget.classList;
-            if (styles.conatins('2')){
-                images(0);
-                console.log('it contains 2')
-            }
-
     
-            
         })
     });
 
