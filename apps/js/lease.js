@@ -40,24 +40,27 @@ fetch('./apps/js/lease.json')
 
 
 function details() {
-    fetch('./apps/js/lease.json')
-    .then(response => response.json())
-    .then(data =>{
+    const styles = e.currentTarget.classList;
+    if (styles.contains('link-1')){
         
-    })
+    }
     
 }
 
 
-    links.forEach(btn =>{   
+    swiperBtn.forEach(btn =>{   
         btn.addEventListener('click',()=>{
+            const styles = e.currentTarget.classList;
             fetch('./apps/js/lease.json')
             .then(response => response.json())
             .then(data =>{
-                
+                if (swiperBtn.classList.contains('link-1')){
+                    // property__details__header[0].innerHTML = data[0].header;
+                    console.log('link-1 clicked');
+                    console.log(data[0].header)
+                }
             })
 
-            const styles = e.currentTarget.classList;
     
         })
     });
