@@ -39,15 +39,14 @@ fetch('./apps/js/lease.json')
 
 
 
-function images(a){
+function details() {
     fetch('./apps/js/lease.json')
     .then(response => response.json())
     .then(data =>{
-      return  date.innerHTML = data[0].date
-    });
+        
+    })
+    
 }
-
-
 
 
     link.forEach(btn =>{   
