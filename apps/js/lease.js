@@ -53,31 +53,31 @@ links.forEach(lin =>{
     })
 })
 
-function details() {
-    const styles = e.currentTarget.classList;
-    if (styles.contains('link-1')){
+// function details() {
+//     const styles = e.currentTarget.classList;
+//     if (styles.contains('link-1')){
         
-    }
+//     }
     
-}
+// }
 
 
-    // swiperBtn.forEach(btn =>{   
-    //     btn.addEventListener('click',()=>{
-    //         const styles = e.currentTarget.classList;
-    //         fetch('./apps/js/lease.json')
-    //         .then(response => response.json())
-    //         .then(data =>{
-    //             if (swiperBtn.classList.contains('link-1')){
-    //                 // property__details__header[0].innerHTML = data[0].header;
-    //                 console.log('link-1 clicked');
-    //                 console.log(data[0].header)
-    //             }
-    //         })
+    swiperBtn.forEach(btn =>{   
+        btn.addEventListener('click',()=>{
+            const styles = e.currentTarget.classList;
+            fetch('./apps/js/lease.json')
+            .then(response => response.json())
+            .then(data =>{
+                if (swiperBtn.classList.contains('link-1')){
+                    // property__details__header[0].innerHTML = data[0].header;
+                    console.log('link-1 clicked');
+                    console.log(data[0].header)
+                }
+            })
 
     
-    //     })
-    // });
+        })
+    });
 
 
 
