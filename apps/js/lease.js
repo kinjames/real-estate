@@ -45,7 +45,7 @@ links.forEach(lin =>{
     lin.addEventListener('click',()=>{
         if(links.classList.contains('link-1')){
             console.log('link one')
-            link_1.href = "./details.html";
+            // link_1.href = "./details.html";
         }
         else{
             event.preventDefault();
@@ -62,22 +62,22 @@ function details() {
 }
 
 
-    swiperBtn.forEach(btn =>{   
-        btn.addEventListener('click',()=>{
-            const styles = e.currentTarget.classList;
-            fetch('./apps/js/lease.json')
-            .then(response => response.json())
-            .then(data =>{
-                if (swiperBtn.classList.contains('link-1')){
-                    // property__details__header[0].innerHTML = data[0].header;
-                    console.log('link-1 clicked');
-                    console.log(data[0].header)
-                }
-            })
+    // swiperBtn.forEach(btn =>{   
+    //     btn.addEventListener('click',()=>{
+    //         const styles = e.currentTarget.classList;
+    //         fetch('./apps/js/lease.json')
+    //         .then(response => response.json())
+    //         .then(data =>{
+    //             if (swiperBtn.classList.contains('link-1')){
+    //                 // property__details__header[0].innerHTML = data[0].header;
+    //                 console.log('link-1 clicked');
+    //                 console.log(data[0].header)
+    //             }
+    //         })
 
     
-        })
-    });
+    //     })
+    // });
 
 
 
