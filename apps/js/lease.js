@@ -12,6 +12,7 @@ let amount = document.querySelectorAll('.swiper__btn-1');
 let bigImage = document.querySelectorAll('.big-image');
 let date = document.querySelector('.date');
 let links = document.querySelectorAll('.lin')
+let lin_1 = document.querySelector('.link-1')
 
 
 // main variables
@@ -38,6 +39,19 @@ fetch('./apps/js/lease.json')
     });
 
 
+
+
+links.forEach(lin =>{
+    lin.addEventListener('click',()=>{
+        if(links.classList.contains('link-1')){
+            console.log('link one')
+            link_1.href = "./details.html";
+        }
+        else{
+            event.preventDefault();
+        }
+    })
+})
 
 function details() {
     const styles = e.currentTarget.classList;
