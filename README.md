@@ -64,6 +64,7 @@ Users should be able to:
 ![Splide.js](./user.png)
 
 - How to use css user select.
+How to increase some things 
 
 ![Splide.js](./user.png)
 
