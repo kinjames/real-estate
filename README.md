@@ -1,6 +1,6 @@
 # real-estate
 
-This is a Real Estate Agency based in Australia's website. It contians a homepage, About Us page, Blog Page, For Lease Page and Contact Us page. This website lists the number of properties available for lease and also gives out the location of each house or apartment listed on their website so that you can check it out incase you want to.I will be changing everything to React  
+This is a Real Estate Agency based in Australia's website. It contians a homepage, About Us page, Blog Page, For Lease Page and Contact Us page. This website lists the number of properties available for lease and also gives out the location of each house or apartment listed on their website so that you can check it out incase you want to.I will be changing everything to React. Built witj React .js
 
 ## Table of contents
 
