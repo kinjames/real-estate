@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/advice-generator-app-cpcuYGnGvQ)
-- Live Site URL: [Github](https://kinjames.github.io/advice-generator/)
+- Live Site URL: [Github](https://kinjames.github.io/real-estate/)
 
 
 ## My process
