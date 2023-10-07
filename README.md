@@ -84,7 +84,7 @@ I would like to continue using the javascript libraries to add more functionalit
 
 - Frontend Mentor - [@kinjames](https://www.frontendmentor.io/profile/kinjames)
 - Twitter - [@TheBlackCoder7](https://twitter.com/TheBlackCoder7)
-- James Kofi Myets
+- James Kofi Myers
 
 <!-- This real estate website was built with HTML, CSS and JavaScript.
 What I learnt from making this project is how to use user select.
